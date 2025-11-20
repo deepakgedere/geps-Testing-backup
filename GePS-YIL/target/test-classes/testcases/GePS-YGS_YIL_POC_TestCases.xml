@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GePS-YGS_YIL POC And NON-POC Test Cases" parallel="tests" thread-count="2" verbose="10">
+
+    <listeners>
+        <listener class-name="com.listeners.FailFastListener"/>
+    </listeners>
+
+<!--    <test name="GePS-YGS_YEA POC Catalog Test Case">-->
+<!--        <parameter name="type" value="POC"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requisitions.create.PrCreateTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="GePS-YGS_YEA POC Catalog BOP2-BOP5 Test Case">-->
+<!--        <parameter name="type" value="POC"/>-->
+<!--        <parameter name="purchaseType" value="BOP2_5"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requisitions.create.PrCreateTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="GePS-YGS_YEA POC Non-Catalog Test Case">-->
+<!--        <parameter name="type" value="POC"/>-->
+<!--        <parameter name="purchaseType" value="NonCatalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requisitions.create.PrCreateTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="GePS-YGS_YEA POC Man Hours Test Case">
+        <parameter name="type" value="POC"/>
+        <parameter name="purchaseType" value="MH"/>
+        <classes>
+            <class name="com.source.classes.requisitions.create.PrCreateTest"/>
+        </classes>
+    </test>
+
+<!--    <test name="GePS-YGS_YEA POC Yokogawa HW Test Case">-->
+<!--        <parameter name="type" value="POC"/>-->
+<!--        <parameter name="purchaseType" value="YHW"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requisitions.create.PrCreateTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="GePS-YGS_YEA POC Yokogawa SW Test Case">-->
+<!--        <parameter name="type" value="POC"/>-->
+<!--        <parameter name="purchaseType" value="YSW"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requisitions.create.PrCreateTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="GePS-YGS_YEA POC Yokogawa PCI Test Case">-->
+<!--        <parameter name="type" value="POC"/>-->
+<!--        <parameter name="purchaseType" value="YPCI"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requisitions.create.PrCreateTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

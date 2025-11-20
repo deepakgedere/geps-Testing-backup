@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GePS-HOPES_YEA PS Catalog Test Cases">
+
+    <listeners>
+        <listener class-name="com.listeners.FailFastListener"/>
+    </listeners>
+
+    <test name="Requisition Create">
+        <parameter name="type" value="PS"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.requisitions.create.CreateTest"/>
+        </classes>
+    </test>
+
+<!--&lt;!&ndash;    <test name="Requisition Edit">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.requisitions.edit.EditTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--    <test name="Requisition Send For Approval">-->
+<!--        <parameter name="type" value="PS"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requisitions.sendforapproval.SendForApprovalTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--&lt;!&ndash;    <test name="Requisition Reject">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.requisitions.reject.RejectTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--    <test name="Requisition Approve">-->
+<!--        <parameter name="type" value="PS"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requisitions.approve.ApproveTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Requisition Buyer Manager Suspend">-->
+<!--        <parameter name="type" value="PS"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requisitions.suspend.BuyerManagerSuspendTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--&lt;!&ndash;    <test name="Requisition Buyer Suspend">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.requisitions.suspend.BuyerSuspendTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--    <test name="Purchase Order Request Create">-->
+<!--        <parameter name="type" value="PS"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.purchaseorderrequests.create.PorCreateTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--&lt;!&ndash;    <test name="Purchase Order Request Edit">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.purchaseorderrequests.edit.PorEditTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <test name="Purchase Order Request Suspend">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.purchaseorderrequests.suspend.SuspendEditTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <test name="Purchase Order Request Send For Approval">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.purchaseorderrequests.sendforapproval.PorSendForApprovalTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <test name="Purchase Order Request Reject">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.purchaseorderrequests.reject.PorRejectTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--    <test name="Purchase Order Request Approve">-->
+<!--        <parameter name="type" value="PS"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.purchaseorderrequests.approve.PorApproveTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--&lt;!&ndash;    <test name="Purchase Order Request Revision Request">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.purchaseorderrequests.revision.PorRevisionTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--    <test name="Purchase Order Send For Vendor">-->
+<!--        <parameter name="type" value="PS"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.purchaseorders.PoSendForVendorTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Order Schedule Create">-->
+<!--        <parameter name="type" value="PS"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.orderschedules.create.OsCreateTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--&lt;!&ndash;    <test name="Order Schedule Reject">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.orderschedules.reject.OsRejectTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <test name="Order Schedule Edit">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.orderschedules.edit.OsEditTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--    <test name="Order Schedule Approve">-->
+<!--        <parameter name="type" value="PS"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.orderschedules.approval.OsApproveTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Ready For Inspection">-->
+<!--        <parameter name="type" value="PS"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.inspections.readyforinspection.InsReadyForInspectionTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--&lt;!&ndash;    <test name="Inspection Assign">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.inspections.assign.InsAssignTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <test name="Inspection Fail">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.inspections.fail.InsFailTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--    <test name="Inspection Create">-->
+<!--        <parameter name="type" value="PS"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.inspections.create.InsCreateTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Dispatch Note Create">-->
+<!--        <parameter name="type" value="PS"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.dispatchnotes.create.DnCreateTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--&lt;!&ndash;    <test name="Dispatch Note Cancel">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.dispatchnotes.cancel.DnCancelTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <test name="Dispatch Note Return">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.dispatchnotes.dnreturn.DnReturnTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <test name="Dispatch Note Edit">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.dispatchnotes.edit.DnEditTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--    <test name="Dispatch Note Assign">-->
+<!--        <parameter name="type" value="PS"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.dispatchnotes.assign.DnAssignTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Dispatch Note Mark As Complete">-->
+<!--        <parameter name="type" value="SD"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.dispatchnotes.DnMarkAsComplete.DnMarkAsCompleteTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--    <test name="PO Invoice Create">-->
+<!--        <parameter name="type" value="PS"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.invoices.poinvoice.create.PoInvCreateTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--&lt;!&ndash;    <test name="PO Invoice Cancel">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.invoices.poinvoice.cancel.PoInvCancelTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <test name="PO Invoice Checklist Reject">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.invoices.poinvoice.checklist.PoInvChecklistRejectTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <test name="PO Invoice Return">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.invoices.poinvoice.invreturn.PoInvReturnTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <test name="PO Invoice Edit">&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="type" value="PS"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <parameter name="purchaseType" value="Catalog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.invoices.poinvoice.edit.PoInvEditTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--    <test name="PO Invoice Checklist Accept">-->
+<!--        <parameter name="type" value="PS"/>-->
+<!--        <parameter name="purchaseType" value="Catalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.invoices.poinvoice.checklist.PoInvChecklistAcceptTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="PO Invoice Verify">-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.invoices.poinvoice.verify.PoInvVerifyTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--&lt;!&ndash;    <test name="PO Invoice Hold">&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.invoices.poinvoice.hold.PoInvHoldTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <test name="PO Invoice Revert">&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.invoices.poinvoice.revert.PoInvRevertTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--    <test name="PO Invoice Send For Approval">-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.invoices.poinvoice.sendforapproval.PoInvSendForApprovalTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--&lt;!&ndash;    <test name="PO Invoice Reject">&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="com.source.classes.invoices.poinvoice.reject.PoInvRejectTest"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--    <test name="PO Invoice Approve">-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.invoices.poinvoice.approve.PoInvApprovalTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+</suite>

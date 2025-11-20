@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GePS-YGS_YEA PR - Invoice Functional Test Suite">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <suite-files>
+<!--        <suite-file path="../testcases/GePS-YGS_YEA_POC_Catalog_TestCases.xml"/>-->
+        <suite-file path="../testcases/GePS-YGS_YEA_POC_Non-Catalog_TestCases.xml" />
+    </suite-files>
+
+</suite>

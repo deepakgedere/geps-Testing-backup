@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GePS-HOPES_YEA PR - Invoice Functional Test Suite">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+<!--        <listener class-name="org.testng.reporters.EmailableReporter2" />-->
+<!--        <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"/>-->
+    </listeners>
+
+    <suite-files>
+        <suite-file path="../testcases/GePS-HOPES_YEA_PS_Catalog_TestCases.xml"/>
+        <suite-file path="../testcases/GePS-HOPES_YEA_PS_Non-Catalog_TestCases.xml" />
+        <suite-file path="../testcases/GePS-HOPES_YEA_SALES_Catalog_TestCases.xml" />
+        <suite-file path="../testcases/GePS-HOPES_YEA_SALES_Non-Catalog_TestCases.xml" />
+        <suite-file path="../testcases/GePS-HOPES_YEA_SD_Catalog_TestCases.xml" />
+        <suite-file path="../testcases/GePS-HOPES_YEA_SD_Non-Catalog_TestCases.xml" />
+    </suite-files>
+
+</suite>

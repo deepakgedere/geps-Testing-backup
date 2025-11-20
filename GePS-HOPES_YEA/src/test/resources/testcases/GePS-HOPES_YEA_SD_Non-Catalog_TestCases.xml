@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GePS-HOPES_YEA SD Non-Catalog Test Cases" >
+
+    <listeners>
+        <listener class-name="com.listeners.FailFastListener"/>
+    </listeners>
+
+    <test name="Requisition Create">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.requisitions.create.CreateTest"/>
+        </classes>
+    </test>
+
+<!--    <test name="Requisition Edit">-->
+<!--        <parameter name="type" value="SD"/>-->
+<!--        <parameter name="purchaseType" value="NonCatalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requisitions.edit.EditTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Requisition Send For Approval">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.requisitions.sendforapproval.SendForApprovalTest"/>
+        </classes>
+    </test>
+
+<!--    <test name="Requisition Reject">-->
+<!--        <parameter name="type" value="SD"/>-->
+<!--        <parameter name="purchaseType" value="NonCatalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requisitions.reject.RejectTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Requisition Approve">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.requisitions.approve.ApproveTest"/>
+        </classes>
+    </test>
+
+    <test name="Requisition Buyer Manager Suspend">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.requisitions.suspend.BuyerManagerSuspendTest"/>
+        </classes>
+    </test>
+
+<!--    <test name="Requisition Buyer Suspend">-->
+<!--        <parameter name="type" value="SD"/>-->
+<!--        <parameter name="purchaseType" value="NonCatalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requisitions.suspend.BuyerSuspendTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Request For Quotation Create">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.requestforquotations.create.RfqCreateTest"/>
+        </classes>
+    </test>
+
+<!--    <test name="Request For Quotation Edit">-->
+<!--        <parameter name="type" value="SD"/>-->
+<!--        <parameter name="purchaseType" value="NonCatalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requestforquotations.edit.RfqEditTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Request For Quotation Suspend">-->
+<!--        <parameter name="type" value="SD"/>-->
+<!--        <parameter name="purchaseType" value="NonCatalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requestforquotations.suspend.RfqSuspendRfqEditTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Request For Quotation Suspend PR Edit">-->
+<!--        <parameter name="type" value="SD"/>-->
+<!--        <parameter name="purchaseType" value="NonCatalog"/>-->
+<!--        <classes>-->
+<!--            <class name="com.source.classes.requestforquotations.suspend.RfqSuspendPrEditTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Request For Quotation Registered Vendor Quotation Regret">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.requestforquotations.regret.QuotationRegret"/>
+        </classes>
+    </test>
+
+    <test name="Request For Quotation Registered Vendor Quotation Submit">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.requestforquotations.quote.QuoteTest"/>
+        </classes>
+    </test>
+
+    <test name="Request For Quotation Registered Vendor Quotation Requote">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.requestforquotations.requote.RequoteTest"/>
+        </classes>
+    </test>
+
+    <test name="Request For Quotation Ready For Evaluation">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.requestforquotations.readyforevaluation.ReadyForEvaluationTest"/>
+        </classes>
+    </test>
+
+    <test name="Request For Quotation Technical Evaluation Create">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.requestforquotations.technicalevaluation.TechnicalEvaluationCreateTest"/>
+        </classes>
+    </test>
+
+    <test name="Request For Quotation Technical Evaluation Reject">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.requestforquotations.technicalevaluation.TechnicalEvaluationRejectTest"/>
+        </classes>
+    </test>
+
+    <test name="Request For Quotation Technical Evaluation Approve">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.requestforquotations.technicalevaluation.TechnicalEvaluationApproveTest"/>
+        </classes>
+    </test>
+
+    <test name="Request For Quotation Commercial Evaluation Create">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.requestforquotations.commercialevaluation.CommercialEvaluationTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Request Create">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorderrequests.create.PorCreateTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Request Edit">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorderrequests.edit.PorEditTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Request Suspend">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorderrequests.suspend.SuspendEditTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Request Send For Approval">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorderrequests.sendforapproval.PorSendForApprovalTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Request Reject">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorderrequests.reject.PorRejectTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Request Approve">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorderrequests.approve.PorApproveTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Request Revision Request">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorderrequests.revision.PorRevisionTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Send For Vendor">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorders.PoSendForVendorTest"/>
+        </classes>
+    </test>
+
+    <test name="Order Schedule Create">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.orderschedules.create.OsCreateTest"/>
+        </classes>
+    </test>
+
+    <test name="Order Schedule Reject">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.orderschedules.reject.OsRejectTest"/>
+        </classes>
+    </test>
+
+    <test name="Order Schedule Edit">
+        <classes>
+            <class name="com.source.classes.orderschedules.edit.OsEditTest"/>
+        </classes>
+    </test>
+
+    <test name="Order Schedule Approve">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.orderschedules.approval.OsApproveTest"/>
+        </classes>
+    </test>
+
+    <test name="Ready For Inspection">
+        <classes>
+            <class name="com.source.classes.inspections.readyforinspection.InsReadyForInspectionTest"/>
+        </classes>
+    </test>
+
+    <test name="Inspection Assign">
+        <classes>
+            <class name="com.source.classes.inspections.assign.InsAssignTest"/>
+        </classes>
+    </test>
+
+    <test name="Inspection Fail">
+        <classes>
+            <class name="com.source.classes.inspections.fail.InsFailTest"/>
+        </classes>
+    </test>
+
+    <test name="Inspection Create">
+        <classes>
+            <class name="com.source.classes.inspections.create.InsCreateTest"/>
+        </classes>
+    </test>
+
+    <test name="Dispatch Note Create">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.dispatchnotes.create.DnCreateTest"/>
+        </classes>
+    </test>
+
+    <test name="Dispatch Note Cancel">
+        <parameter name="type" value="SD"/>
+        <parameter name="purchaseType" value="NonCatalog"/>
+        <classes>
+            <class name="com.source.classes.dispatchnotes.cancel.DnCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="Dispatch Note Assign">
+        <classes>
+            <class name="com.source.classes.dispatchnotes.assign.DnAssignTest"/>
+        </classes>
+    </test>
+
+    <test name="Dispatch Note Return">
+        <classes>
+            <class name="com.source.classes.dispatchnotes.dnreturn.DnReturnTest"/>
+        </classes>
+    </test>
+
+    <test name="Dispatch Note Edit">
+        <classes>
+            <class name="com.source.classes.dispatchnotes.edit.DnEditTest"/>
+        </classes>
+    </test>
+
+    <test name="Freight Forwarder Invite">
+        <classes>
+            <class name="com.source.classes.freightforwarderrequests.invite.FfrInviteTest"/>
+        </classes>
+    </test>
+
+    <test name="Freight Forwarder Quote">
+        <classes>
+            <class name="com.source.classes.freightforwarderrequests.quote.FfrQuoteTest"/>
+        </classes>
+    </test>
+
+    <test name="Freight Forwarder Requote">
+        <classes>
+            <class name="com.source.classes.freightforwarderrequests.requote.FfrRequoteTest"/>
+        </classes>
+    </test>
+
+    <test name="Work Order Create">
+        <classes>
+            <class name="com.source.classes.workorders.create.WoCreateTest"/>
+        </classes>
+    </test>
+
+    <test name="Work Order Edit">
+        <classes>
+            <class name="com.source.classes.workorders.edit.WoEditTest"/>
+        </classes>
+    </test>
+
+    <test name="Work Order Tracker Status">
+        <classes>
+            <class name="com.source.classes.workorders.trackerstatus.WoTrackerStatusTest"/>
+        </classes>
+    </test>
+
+    <test name="Work Order Ok For Invoice">
+        <classes>
+            <class name="com.source.classes.workorders.okforinvoice.WoOkForInvoiceTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Invoice Create">
+        <classes>
+            <class name="com.source.classes.invoices.poinvoice.create.PoInvCreateTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Invoice Cancel">
+        <classes>
+            <class name="com.source.classes.invoices.poinvoice.cancel.PoInvCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Invoice Checklist Reject">
+        <classes>
+            <class name="com.source.classes.invoices.poinvoice.checklist.PoInvChecklistRejectTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Invoice Return">
+        <classes>
+            <class name="com.source.classes.invoices.poinvoice.invreturn.PoInvReturnTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Invoice Edit">
+        <classes>
+            <class name="com.source.classes.invoices.poinvoice.edit.PoInvEditTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Invoice Checklist Accept">
+        <classes>
+            <class name="com.source.classes.invoices.poinvoice.checklist.PoInvChecklistAcceptTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Invoice Verify">
+        <classes>
+            <class name="com.source.classes.invoices.poinvoice.verify.PoInvVerifyTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Invoice Hold">
+        <classes>
+            <class name="com.source.classes.invoices.poinvoice.hold.PoInvHoldTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Invoice Revert">
+        <classes>
+            <class name="com.source.classes.invoices.poinvoice.revert.PoInvRevertTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Invoice Send For Approval">
+        <classes>
+            <class name="com.source.classes.invoices.poinvoice.sendforapproval.PoInvSendForApprovalTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Invoice Reject">
+        <classes>
+            <class name="com.source.classes.invoices.poinvoice.reject.PoInvRejectTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Invoice Approve">
+        <classes>
+            <class name="com.source.classes.invoices.poinvoice.approve.PoInvApprovalTest"/>
+        </classes>
+    </test>
+
+    <test name="WO Invoice Create">
+        <classes>
+            <class name="com.source.classes.invoices.woinvoice.create.WoInvCreateTest"/>
+        </classes>
+    </test>
+
+    <test name="WO Invoice Cancel">
+        <classes>
+            <class name="com.source.classes.invoices.woinvoice.cancel.WoInvCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="WO Invoice Checklist Reject">
+        <classes>
+            <class name="com.source.classes.invoices.woinvoice.checklist.WoInvChecklistRejectTest"/>
+        </classes>
+    </test>
+
+    <test name="WO Invoice Return">
+        <classes>
+            <class name="com.source.classes.invoices.woinvoice.invreturn.WoInvReturnTest"/>
+        </classes>
+    </test>
+
+    <test name="WO Invoice Edit">
+        <classes>
+            <class name="com.source.classes.invoices.woinvoice.edit.WoInvEditTest"/>
+        </classes>
+    </test>
+
+    <test name="WO Invoice Checklist Accept">
+        <classes>
+            <class name="com.source.classes.invoices.woinvoice.checklist.WoInvChecklistAcceptTest"/>
+        </classes>
+    </test>
+
+    <test name="WO Invoice Verify">
+        <classes>
+            <class name="com.source.classes.invoices.woinvoice.verify.WoInvVerifyTest"/>
+        </classes>
+    </test>
+
+    <test name="WO Invoice Hold">
+        <classes>
+            <class name="com.source.classes.invoices.woinvoice.hold.WoInvHoldTest"/>
+        </classes>
+    </test>
+
+    <test name="WO Invoice Revert">
+        <classes>
+            <class name="com.source.classes.invoices.woinvoice.revert.WoInvRevertTest"/>
+        </classes>
+    </test>
+
+    <test name="WO Invoice Send For Approval">
+        <classes>
+            <class name="com.source.classes.invoices.woinvoice.sendforapproval.WoInvSendForApprovalTest"/>
+        </classes>
+    </test>
+
+    <test name="WO Invoice Reject">
+        <classes>
+            <class name="com.source.classes.invoices.woinvoice.reject.WoInvRejectTest"/>
+        </classes>
+    </test>
+
+    <test name="WO Invoice Approve">
+        <classes>
+            <class name="com.source.classes.invoices.woinvoice.approve.WoInvApprovalTest"/>
+        </classes>
+    </test>
+
+</suite>

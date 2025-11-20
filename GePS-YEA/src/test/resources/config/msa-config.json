@@ -1,0 +1,31 @@
+{
+  "msa" : {
+    "ftpHost" : "152.67.16.70",
+    "ftpPort" : 21,
+    "ftpUser" : "rpauser2",
+    "ftpPassword" : "1234",
+    "localPath" : "documents\\MSA Files",
+    "remoteGepsToHopesFilePath" : "/YEA_RPA/1.SCM-YGS/",
+    "remoteHopesToGepsPath" : "/YEA_RPA/5.YGS-SCM/",
+    "remotePOFilePath" : "/YEA_RPA/4.PO/",
+    "remoteGepsToHopesNonPocFilePath" : "/YEA_RPA/14.SCM-YGS_NONPOC/",
+    "remoteHopesToGepsNonPocPath" : "/YEA_RPA/15.YGS-SCM_NONPOC/",
+    "remotePONonPocFilePath" : "/YEA_RPA/17.PO_NONPOC/",
+    "remoteOaDownloadFilePath" : "/YEA_RPA/23.OA_SCM-YGS/",
+    "remoteOaUploadFilePath" : "/YEA_RPA/24.OA_SCM-YGS/",
+    "remoteIvDownloadFilePath" : "/YEA_RPA/8.GRIV_GePS-HOPES/",
+    "remoteIvUploadFilePath" : "/YEA_RPA/9.GRIV_HOPES-GePS/",
+    "localSoFilePath" : "documents\\MSA Files\\SalesOrders_Details.xlsx",
+    "remoteSoFilePath" : "/YEA_RPA/11.SoMasterReport/SalesOrders_Details.xlsx",
+    "localPrListFilePath" : "documents\\MSA Files\\PR list for original ID.xls",
+    "remotePrListFilePath" : "/YEA_RPA/BW/",
+    "remotePoPath" : "/YEA_RPA/4.PO/",
+    "syncSOUrl" : "https://yea-test.cormsquare.com/api/PurchaseOrderRequests/SyncSalesOrders/",
+    "readPRListFileForCatalog" : "https://yea-test.cormsquare.com/api/PurchaseOrderRequests/ReadPRListForCatalog/",
+    "readPRListFileForNonCatalog" : "https://yea-test.cormsquare.com/api/PurchaseOrderRequests/ReadPRListForNonCatalog/",
+    "readPORAPIUrl" : "https://yea-test.cormsquare.com/api/PurchaseOrderRequests/ReadPORStatus/",
+    "generatePOAPIUrl" : "https://yea-test.cormsquare.com/api/PurchaseOrderRequests/GeneratePO/",
+    "readOrderScheduleUrl" : "https://yea-test.cormsquare.com/api/OrderSchedules/ReadOrderScheduleStatus/",
+    "readIvNumberUrl" : "https://yea-test.cormsquare.com/api/PurchaseOrderRequests/ReadIVNumber/"
+  }
+}

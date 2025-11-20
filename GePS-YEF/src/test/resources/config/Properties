@@ -1,0 +1,82 @@
+# User and Role Details
+adminEmail=admin@cormsquare.com
+buyerEmail=buyer@cormsquare.com
+buyerManagerEmail=buyermanager@cormsquare.com
+cfoEmail=cfo@cormsquare.com
+requesterEmail=requester@cormsquare.com
+financeCheckerEmail=financechecker@cormsquare.com
+logisticsManagerEmail=logisticsmanager@cormsquare.com
+prApproverGroupBEmail=admin@cormsquare.com
+prApproverGroupCEmail=departmentmanager@cormsquare.com
+prApproverGroupDEmail=businessunitmanager@cormsquare.com
+projectManagerEmail=projectmanager@cormsquare.com
+presidentDirectorCorporateEmail=hazel@sharklasers.com
+vendorEmail=ind2@cormsquare.com
+
+# Order and Item Details
+orderTitle=POC-Automation
+purchaseType=Catalog
+vendorName=11 X 17 INC
+items=Power Cable 3C x 2.5 Sqmm, TERMINAL MARKER 8/5, LED Type Indication Lamps 24V AMBER
+mhItem=Engineering Services
+poReferenceId=240024PO00289
+projectCode=E216671W00
+quantityList=150,200,20,80,90,35,40,20,10,5
+partNumber=PN - 1
+leadTimeDays=10
+packageType=Drum
+makeDescription=Make - 1
+modelDescription=Model - 1
+wbsCode=JANPJTH
+
+# Billing and Pricing Details
+poValue=9000
+orderIntake=9000
+ratePerUnit=690
+unitRate=200
+taxCode=PZ-Zero Rated Purchase
+discountPercentage=20
+gstPercentage=8
+priceValidity=3 Months
+targetPrice=4500
+rateContract=Rate Contract - 11 X 17
+billingType=TimeSheet
+liquidatedDamages=Special
+
+# Location and Shipping Details
+countryOfOrigin=India
+destinationCountry=India
+sourceCountry=India
+shippingMode=Courier
+shippingAddress=C1W00026 - Yokogawa Corporation of America - 1953
+incoterm=EXW - Ex Works
+incotermLocation=Bengaluru
+oiAndTpCurrency=SGD
+shipToYokogawa=yes
+
+# Document and Notes
+quotationReferenceNumber=QUO-47329
+quotationNotes=Quotation Notes
+purchaseOrderNotes=Purchase Order Request Notes
+rfqNotes=Request For Quotation Notes and Attachments
+requisitionNotes=Requisition Notes and Attachments
+workOrderReferenceId=
+dispatchNoteReferenceId=
+
+# Miscellaneous Item Details
+grossWeightKg=20
+netWeightKg=35
+totalChargeableWeightKg=200
+volumeCm3=50
+warrantyRequirement=2 Years
+hsCode=1234
+inspectionRequired=true
+rohsCompliance=No
+
+# Browser and Execution Settings
+browserType=chrome
+runHeadless=false
+appUrl=https://yca-test.cormsquare.com/Identity/Account/Login
+loginPassword=Admin@123
+internalFilePath=C:\My_Personal_Folder\Downloads\Internal.xlsx
+externalFilePath=C:\My_Personal_Folder\Downloads\External.xlsx

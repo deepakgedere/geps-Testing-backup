@@ -1,0 +1,46 @@
+package com.source.interfaces.requisitions;
+import java.util.List;
+import java.util.Map;
+
+public interface IPrCreate {
+    void requesterLoginPRCreate();
+    void createButton();
+    void purchaseType(String type, String purchaseType);
+    void title(String type, String purchaseType);
+    void shipToYokogawa();
+    void company();
+    void businessUnit();
+    void salesReferenceId();
+    List<String> project();
+    void wbs(List<String> wbs);
+    List<String> salesOrder();
+    void serviceOrder(List<String> serviceOrder);
+    void departmentPic();
+    void billableToCustomer();
+    void caseMarking();
+    void messageToSourcing();
+    Map<String, String> vendor();
+    List<String> rateContract(Map<String, String> rateContractArray);
+    void incoterm();
+    void shippingAddress();
+    void shippingMode(String purchaseType);
+    void quotationRequiredBy();
+    void expectedPOIssue(String purchaseType);
+    void expectedDelivery(String purchaseType);
+    void buyerManager();
+    void projectManager();
+    void rohsCompliance();
+    void inspectionRequired(String type, String purchaseType);
+    void oiAndTpCurrency();
+    void orderIntake(String type);
+    void targetPrice(String type, String purchaseType);
+    void warrantyRequirements(String type);
+    void priceValidity(String type);
+    void liquidatedDamages();
+    void tcasCompliance();
+    void addLineRequisitionItemsCatalog(List<String> rateContract);
+    void addLineRequisitionItemsNonCatalog();
+    void notes();
+    void attachments();
+    int prCreate(String type, String purchaseType);
+}

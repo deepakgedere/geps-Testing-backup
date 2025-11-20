@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HDFC_CPC_INFRA_Catalog Test Cases">
+
+    <listeners>
+        <listener class-name="com.listeners.FailFastListener"/>
+    </listeners>
+
+    <test name="Requisition Create Test">
+        <classes>
+            <class name="com.classes.infra.requisitions.create.CreateTest"/>
+        </classes>
+    </test>
+
+    <test name="Requisition Reject Test">
+        <classes>
+            <class name="com.classes.infra.requisitions.reject.RejectTest"/>
+        </classes>
+    </test>
+
+    <test name="Requisition Edit Test">
+        <classes>
+            <class name="com.classes.infra.requisitions.edit.EditTest"/>
+        </classes>
+    </test>
+
+    <test name="Requisition Approve Test">
+        <classes>
+            <class name="com.classes.infra.requisitions.approve.ApproveTest"/>
+        </classes>
+    </test>
+
+    <test name="Bill Of Quantity Create Test">
+        <classes>
+            <class name="com.classes.infra.billofquantity.create.BOQCreateTest"/>
+        </classes>
+    </test>
+
+    <test name="Bill Of Quantity Reject Test">
+        <classes>
+            <class name="com.classes.infra.billofquantity.reject.BOQRejectTest"/>
+        </classes>
+    </test>
+
+    <test name="Bill Of Quantity Approve Test and PO Create Test">
+        <classes>
+            <class name="com.classes.infra.billofquantity.approve.BOQApproveTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Reject Test">
+        <classes>
+            <class name="com.classes.infra.purchaseorder.reject.PORejectTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Edit Test">
+        <classes>
+            <class name="com.classes.infra.purchaseorder.edit.POEditTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Approve Test">
+        <classes>
+            <class name="com.classes.infra.purchaseorder.approve.POApproveTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Acknowledgement Reject Test">
+        <classes>
+            <class name="com.classes.infra.purchaseorder.ackreject.AckRejectTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Ammend Test">
+        <classes>
+            <class name="com.classes.infra.purchaseorder.amend.POAmendTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Accept Test">
+        <classes>
+            <class name="com.classes.infra.purchaseorder.accept.POAcceptTest"/>
+        </classes>
+    </test>
+
+</suite>

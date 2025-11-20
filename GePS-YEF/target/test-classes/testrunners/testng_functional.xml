@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="YCA Playwright Suite">
+    <!-->parallel="tests" thread-count="1" verbose="1"-->
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2" />
+        <listener class-name="com.listeners.ExtentReportListener" />
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="YCA Login Page Test">
+        <classes>
+            <class name="com.classes.login.LoginTest" />
+        </classes>
+    </test>
+
+    <test name="Requisition Create Page Test">
+        <classes>
+            <class name="com.classes.requisition.create.CreateTest" />
+        </classes>
+    </test>
+
+    <test name="Requisition Edit Page Test">
+        <classes>
+            <class name="com.classes.requisition.edit.EditTest" />
+        </classes>
+    </test>
+
+    <test name="Requisition Send For Approval Page Test">
+        <classes>
+            <class name="com.classes.requisition.sendforapproval.SendForApprovalTest" />
+        </classes>
+    </test>
+
+    <test name="Requisition Reject Page Test">
+        <classes>
+            <class name="com.classes.requisition.reject.RejectTest" />
+        </classes>
+    </test>
+
+    <test name="Requisition Approve Page Test">
+        <classes>
+            <class name="com.classes.requisition.approve.ApproveTest" />
+        </classes>
+    </test>
+
+    <test name="Requisition Assign Page Test">
+        <classes>
+            <class name="com.classes.requisition.assign.AssignTest" />
+        </classes>
+    </test>
+
+    <test name="Requisition Buyer Suspend Page Test">
+        <classes>
+            <class name="com.classes.requisition.suspend.SuspendTest" />
+        </classes>
+    </test>
+
+</suite>

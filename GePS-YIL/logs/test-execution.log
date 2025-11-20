@@ -1,0 +1,1685 @@
+2025-07-18 11:42:57 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:42:57 [TestNG-tests-2] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:43:28 [TestNG-tests-2] ERROR com.source.classes.logout.Logout - Error in Perform Logout Function: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("//a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]") to be visible
+
+2025-07-18 11:43:28 [TestNG-tests-1] ERROR com.source.classes.logout.Logout - Error in Perform Logout Function: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\dispatchers\dispatcher.js:366:39)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processImmediate (node:internal/timers:459:9)
+}
+Call log:
+-   - waiting for locator("//a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]") to be visible
+
+2025-07-18 11:43:33 [TestNG-tests-2] ERROR com.source.classes.login.Login - Error in Perform Login Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 11:43:33 [TestNG-tests-1] ERROR com.source.classes.login.Login - Error in Perform Login Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 11:43:37 [TestNG-tests-1] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:43:37 [TestNG-tests-2] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:43:43 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:43:43 [TestNG-tests-2] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:44:13 [TestNG-tests-1] ERROR com.source.classes.logout.Logout - Error in Perform Logout Function: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("//a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]") to be visible
+
+2025-07-18 11:44:13 [TestNG-tests-2] ERROR com.source.classes.logout.Logout - Error in Perform Logout Function: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3774375892495822480\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("//a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]") to be visible
+
+2025-07-18 11:44:39 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:44:52 [TestNG-tests-1] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:44:57 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:45:06 [TestNG-tests-1] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:45:25 [TestNG-tests-2] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:45:25 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:45:37 [TestNG-tests-1] ERROR com.source.classes.logout.Logout - Error in Perform Logout Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16285533576551984986\package\lib\utils\isomorphic\stackTrace.js:36:17)
+    at LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16285533576551984986\package\lib\utils\isomorphic\manualPromise.js:89:52)
+    at LongStandingScope.race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16285533576551984986\package\lib\utils\isomorphic\manualPromise.js:82:17)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16285533576551984986\package\lib\server\dispatchers\dispatcher.js:98:36)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16285533576551984986\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("//a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]") to be visible
+
+2025-07-18 11:45:37 [TestNG-tests-1] ERROR com.source.classes.login.Login - Error in Perform Login Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 11:45:37 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Create Button Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 11:45:37 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Purchase Type Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 11:45:37 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Title Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 11:45:38 [TestNG-tests-2] ERROR com.source.classes.logout.Logout - Error in Perform Logout Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16285533576551984986\package\lib\utils\isomorphic\stackTrace.js:36:17)
+    at LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16285533576551984986\package\lib\utils\isomorphic\manualPromise.js:89:52)
+    at LongStandingScope.race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16285533576551984986\package\lib\utils\isomorphic\manualPromise.js:82:17)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16285533576551984986\package\lib\server\dispatchers\dispatcher.js:98:36)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16285533576551984986\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("//a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]") to be visible
+
+2025-07-18 11:45:38 [TestNG-tests-2] ERROR com.source.classes.login.Login - Error in Perform Login Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 11:45:38 [TestNG-tests-2] ERROR com.source.classes.requisitions.create.Create - Exception in Create Button Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 11:45:38 [TestNG-tests-2] ERROR com.source.classes.requisitions.create.Create - Exception in Purchase Type Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 11:45:38 [TestNG-tests-2] ERROR com.source.classes.requisitions.create.Create - Exception in Title Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 11:47:05 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:47:05 [TestNG-tests-2] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:47:07 [TestNG-tests-1] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:47:07 [TestNG-tests-2] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:47:07 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:47:07 [TestNG-tests-2] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:47:10 [TestNG-tests-1] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:47:11 [TestNG-tests-2] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:48:19 [TestNG-tests-2] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:48:19 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:48:20 [TestNG-tests-2] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:48:20 [TestNG-tests-1] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:48:21 [TestNG-tests-2] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:48:22 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:48:25 [TestNG-tests-2] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:48:26 [TestNG-tests-1] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:48:33 [TestNG-tests-2] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:48:34 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:48:34 [TestNG-tests-2] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:48:34 [TestNG-tests-1] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:48:35 [TestNG-tests-2] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:48:36 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:48:39 [TestNG-tests-2] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:48:39 [TestNG-tests-1] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:48:47 [TestNG-tests-2] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:48:47 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:48:47 [TestNG-tests-2] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:48:48 [TestNG-tests-1] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:48:49 [TestNG-tests-2] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:48:49 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:48:53 [TestNG-tests-1] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:48:53 [TestNG-tests-2] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:48:58 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:48:58 [TestNG-tests-1] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:48:59 [TestNG-tests-1] INFO  com.source.classes.login.Login - Login was successful, locator found: //span[contains(text(),'Yokogawa India Limited')]
+2025-07-18 11:49:01 [TestNG-tests-1] INFO  com.source.classes.logout.Logout - Logout was successful, locator found: //a[contains(text(),'If you are an Employee of Yokogawa, Please click here.')]
+2025-07-18 11:58:42 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Project Function: Cannot invoke "com.fasterxml.jackson.databind.JsonNode.get(String)" because "firstProjectObject" is null
+2025-07-18 12:12:16 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Vendor Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 12:12:16 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Rate Contract Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 12:17:16 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 12:21:19 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 12:21:49 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 12:22:48 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 12:23:09 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 12:25:56 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 12:27:11 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Cannot invoke "org.apache.logging.log4j.Logger.error(String, Object, Object)" because "com.utils.LocatorHandlerUtil.logger" is null
+2025-07-18 12:28:14 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//li[contains(text(), "Gen. Purpose Elco Board-Other Positions")]]: Error {
+  message='Error: strict mode violation: locator("//li[contains(text(), \"Gen. Purpose Elco Board-Other Positions\")]") resolved to 2 elements:
+    1) <li role="option" aria-selected="false" data-select2-id="166" class="select2-results__option select2-results__option--highlighted">Gen. Purpose Elco Board-Other Positions - YMRPTB@…</li> aka getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("Gen. Purpose Elco Board-Other Positions - YMRPTB@A - YMRPTB@A"))
+    2) <li role="option" aria-selected="false" data-select2-id="167" class="select2-results__option">Gen. Purpose Elco Board-Other Positions - YDOM-42…</li> aka getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("Gen. Purpose Elco Board-Other Positions - YDOM-420@B - YDOM-420@B"))
+
+  name='Error
+  stack='Error: Error: strict mode violation: locator("//li[contains(text(), \"Gen. Purpose Elco Board-Other Positions\")]") resolved to 2 elements:
+    1) <li role="option" aria-selected="false" data-select2-id="166" class="select2-results__option select2-results__option--highlighted">Gen. Purpose Elco Board-Other Positions - YMRPTB@…</li> aka getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("Gen. Purpose Elco Board-Other Positions - YMRPTB@A - YMRPTB@A"))
+    2) <li role="option" aria-selected="false" data-select2-id="167" class="select2-results__option">Gen. Purpose Elco Board-Other Positions - YDOM-42…</li> aka getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("Gen. Purpose Elco Board-Other Positions - YDOM-420@B - YDOM-420@B"))
+
+    at CRExecutionContext.evaluateWithArguments (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\chromium\crExecutionContext.js:82:33)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\javascript.js:228:12)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\frames.js:646:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\frames.js:935:24)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\frames.js:631:14
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\dispatchers\frameDispatcher.js:105:85)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\dispatchers\dispatcher.js:98:14)
+}
+Call log:
+-   - waiting for locator("//li[contains(text(), \"Gen. Purpose Elco Board-Other Positions\")]") to be visible
+
+2025-07-18 12:28:14 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Error {
+  message='Error: strict mode violation: locator("//li[contains(text(), \"Gen. Purpose Elco Board-Other Positions\")]") resolved to 2 elements:
+    1) <li role="option" aria-selected="false" data-select2-id="176" class="select2-results__option select2-results__option--highlighted">Gen. Purpose Elco Board-Other Positions - YMRPTB@…</li> aka getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("Gen. Purpose Elco Board-Other Positions - YMRPTB@A - YMRPTB@A"))
+    2) <li role="option" aria-selected="false" data-select2-id="177" class="select2-results__option">Gen. Purpose Elco Board-Other Positions - YDOM-42…</li> aka getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("Gen. Purpose Elco Board-Other Positions - YDOM-420@B - YDOM-420@B"))
+
+  name='Error
+  stack='Error: Error: strict mode violation: locator("//li[contains(text(), \"Gen. Purpose Elco Board-Other Positions\")]") resolved to 2 elements:
+    1) <li role="option" aria-selected="false" data-select2-id="176" class="select2-results__option select2-results__option--highlighted">Gen. Purpose Elco Board-Other Positions - YMRPTB@…</li> aka getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("Gen. Purpose Elco Board-Other Positions - YMRPTB@A - YMRPTB@A"))
+    2) <li role="option" aria-selected="false" data-select2-id="177" class="select2-results__option">Gen. Purpose Elco Board-Other Positions - YDOM-42…</li> aka getByRole(AriaRole.OPTION, new Page.GetByRoleOptions().setName("Gen. Purpose Elco Board-Other Positions - YDOM-420@B - YDOM-420@B"))
+
+    at CRExecutionContext.evaluateWithArguments (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\chromium\crExecutionContext.js:82:33)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\javascript.js:228:12)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\frames.js:965:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\frames.js:935:24)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\frames.js:1023:29
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\dispatchers\frameDispatcher.js:157:12)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13857685404450016695\package\lib\server\dispatchers\dispatcher.js:98:14)
+}
+Call log:
+-   - waiting for locator("//li[contains(text(), \"Gen. Purpose Elco Board-Other Positions\")]")
+
+2025-07-18 12:35:22 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7210740075197185025\package\lib\server\dispatchers\dispatcher.js:377:15)
+}
+Call log:
+-   - waiting for locator("//li[contains(text(), \"Terminal Board-DO - YDOM-460@B - YDOM-460@B\")]").first()
+
+2025-07-18 12:40:02 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#select2-rcitemId-container]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14007709177976629723\package\lib\utils\isomorphic\stackTrace.js:36:17)
+    at LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14007709177976629723\package\lib\utils\isomorphic\manualPromise.js:89:52)
+    at LongStandingScope.race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14007709177976629723\package\lib\utils\isomorphic\manualPromise.js:82:17)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14007709177976629723\package\lib\server\dispatchers\dispatcher.js:98:36)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14007709177976629723\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#select2-rcitemId-container") to be visible
+-     4 × locator resolved to hidden <span role="textbox" aria-readonly="true" id="select2-rcitemId-container" class="select2-selection__rendered">…</span>
+
+2025-07-18 12:40:02 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14007709177976629723\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14007709177976629723\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14007709177976629723\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-18 12:40:59 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#select2-shippingaddressId-container]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11636409745228364979\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11636409745228364979\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11636409745228364979\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11636409745228364979\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11636409745228364979\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#select2-shippingaddressId-container") to be visible
+-     15 × locator resolved to hidden <span role="textbox" aria-readonly="true" class="select2-selection__rendered" id="select2-shippingaddressId-container">…</span>
+
+2025-07-18 12:41:29 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Shipping Address Function: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11636409745228364979\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11636409745228364979\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11636409745228364979\package\lib\server\dispatchers\frameDispatcher.js:157:30)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11636409745228364979\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11636409745228364979\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#select2-shippingaddressId-container")
+-     - locator resolved to <span role="textbox" aria-readonly="true" class="select2-selection__rendered" id="select2-shippingaddressId-container">…</span>
+-   - attempting click action
+-     2 × waiting for element to be visible, enabled and stable
+-       - element is not visible
+-     - retrying click action
+-     - waiting 20ms
+-     2 × waiting for element to be visible, enabled and stable
+-       - element is not visible
+-     - retrying click action
+-       - waiting 100ms
+-     57 × waiting for element to be visible, enabled and stable
+-        - element is not visible
+-      - retrying click action
+-        - waiting 500ms
+
+2025-07-18 12:46:43 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-4894610400827667087\package\lib\utils\isomorphic\stackTrace.js:36:17)
+    at LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-4894610400827667087\package\lib\utils\isomorphic\manualPromise.js:89:52)
+    at LongStandingScope.race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-4894610400827667087\package\lib\utils\isomorphic\manualPromise.js:82:17)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-4894610400827667087\package\lib\server\dispatchers\dispatcher.js:98:36)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-4894610400827667087\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#remarks")
+
+2025-07-18 12:55:44 [TestNG-tests-1] ERROR com.source.classes.requisitions.prType.PurchaseRequisitionTypeHandler - Error in Purchase Type Function: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-2598429991379128439\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-2598429991379128439\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-2598429991379128439\package\lib\server\dispatchers\frameDispatcher.js:157:30)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-2598429991379128439\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-2598429991379128439\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#select2-storageLocId-container")
+-     - locator resolved to <span role="textbox" aria-readonly="true" title="E001 - ⇆Drop Ship Sys" class="select2-selection__rendered" id="select2-storageLocId-container">…</span>
+-   - attempting click action
+-     2 × waiting for element to be visible, enabled and stable
+-       - element is not enabled
+-     - retrying click action
+-     - waiting 20ms
+-     2 × waiting for element to be visible, enabled and stable
+-       - element is not enabled
+-     - retrying click action
+-       - waiting 100ms
+-     57 × waiting for element to be visible, enabled and stable
+-        - element is not enabled
+-      - retrying click action
+-        - waiting 500ms
+
+2025-07-18 12:57:20 [TestNG-tests-1] ERROR com.source.classes.requisitions.prType.PurchaseRequisitionTypeHandler - Error in Purchase Type Function: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-4938899628575673689\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-4938899628575673689\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-4938899628575673689\package\lib\server\dispatchers\frameDispatcher.js:157:30)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-4938899628575673689\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-4938899628575673689\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#select2-storageLocId-container")
+-     - locator resolved to <span role="textbox" aria-readonly="true" title="E001 - ⇆Drop Ship Sys" class="select2-selection__rendered" id="select2-storageLocId-container">…</span>
+-   - attempting click action
+-     2 × waiting for element to be visible, enabled and stable
+-       - element is not enabled
+-     - retrying click action
+-     - waiting 20ms
+-     2 × waiting for element to be visible, enabled and stable
+-       - element is not enabled
+-     - retrying click action
+-       - waiting 100ms
+-     57 × waiting for element to be visible, enabled and stable
+-        - element is not enabled
+-      - retrying click action
+-        - waiting 500ms
+
+2025-07-18 12:57:51 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9608376883561158489\package\lib\utils\isomorphic\stackTrace.js:36:17)
+    at LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9608376883561158489\package\lib\utils\isomorphic\manualPromise.js:89:52)
+    at LongStandingScope.race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9608376883561158489\package\lib\utils\isomorphic\manualPromise.js:82:17)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9608376883561158489\package\lib\server\dispatchers\dispatcher.js:98:36)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9608376883561158489\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#quantity")
+-     - locator resolved to <input min="1" autofocus="" type="number" id="quantity" name="quantity" aria-invalid="false" class="form-control form-control-sm" placeholder=" Please Enter Quantity "/>
+-     - fill("10002")
+-   - attempting fill action
+-     - waiting for element to be visible, enabled and editable
+
+2025-07-18 12:58:18 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-5767336625079554254\package\lib\server\dispatchers\dispatcher.js:377:15)
+}
+Call log:
+-   - waiting for locator("#addLineRequisitionItems")
+-     - locator resolved to <button type="button" id="addLineRequisitionItems" class="btn btn-sm btn-primary">↵                        Add line Requisition Ite…</button>
+-   - attempting click action
+-     - waiting for element to be visible, enabled and stable
+-     - element is visible, enabled and stable
+-     - scrolling into view if needed
+-     - done scrolling
+-     - <textarea id="description" name="description" aria-invalid="false" class="form-control form-control-sm" placeholder="Please Enter  Description/Specifications"></textarea> from <div tabindex="-1" role="dialog" id="modalRcItem" aria-modal="true" class="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" aria-labelledby="modalItemTitle">…</div> subtree intercepts pointer events
+-   - retrying click action
+-     - waiting for element to be visible, enabled and stable
+-     - element is visible, enabled and stable
+-     - scrolling into view if needed
+-     - done scrolling
+-     - <div tabindex="-1" role="dialog" id="modalRcItem" aria-modal="true" class="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" aria-labelledby="modalItemTitle">…</div> intercepts pointer events
+-   - retrying click action
+-     - waiting 20ms
+-     - waiting for element to be visible, enabled and stable
+-     - element is visible, enabled and stable
+-     - scrolling into view if needed
+-     - done scrolling
+-     - <div class="modal-backdrop fade"></div> intercepts pointer events
+-   - retrying click action
+-     - waiting 100ms
+
+2025-07-18 13:10:23 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#select2-warrantyrequirementsId-container]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#select2-warrantyrequirementsId-container") to be visible
+
+2025-07-18 13:10:31 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Warranty Requirements Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\utils\isomorphic\stackTrace.js:36:17)
+    at LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\utils\isomorphic\manualPromise.js:89:52)
+    at LongStandingScope.race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\utils\isomorphic\manualPromise.js:82:17)
+    at C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\utils\isomorphic\manualPromise.js:79:43
+    at Array.map (<anonymous>)
+    at LongStandingScope.raceMultiple (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\utils\isomorphic\manualPromise.js:79:32)
+    at Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\frames.js:931:40)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\frames.js:1023:29
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\dispatchers\frameDispatcher.js:157:12)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\dispatchers\dispatcher.js:98:14)
+    at async DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\dispatchers\dispatcher.js:366:22)
+}
+Call log:
+-   - waiting for locator("#select2-warrantyrequirementsId-container")
+
+2025-07-18 13:10:31 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#select2-checkerId-container]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-18 13:10:31 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Shipping Mode Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-18 13:10:31 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//*[@id='dates']/div[1]/input[2]]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-18 13:10:31 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Expected PO Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-18 13:10:31 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//*[@id='dates']/div[2]/input[2]]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-18 13:10:31 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Expected Delivery Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-18 13:10:32 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#addLineRequisitionItems]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-18 13:10:32 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1997840787304968317\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-18 13:12:12 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//li[contains(text(), "2 Years")]]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1734783088077184062\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1734783088077184062\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1734783088077184062\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1734783088077184062\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1734783088077184062\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("//li[contains(text(), \"2 Years\")]") to be visible
+
+2025-07-18 13:13:39 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#orderintakeId]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12491145002736819818\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12491145002736819818\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12491145002736819818\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12491145002736819818\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12491145002736819818\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#orderintakeId") to be visible
+
+2025-07-18 13:14:09 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Order Intake Function: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12491145002736819818\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12491145002736819818\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12491145002736819818\package\lib\server\dispatchers\frameDispatcher.js:169:30)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12491145002736819818\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12491145002736819818\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#orderintakeId")
+
+2025-07-18 13:16:06 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#orderintakeId]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7887444361545452924\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7887444361545452924\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7887444361545452924\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7887444361545452924\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7887444361545452924\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#orderintakeId") to be visible
+
+2025-07-18 13:17:03 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#orderInTakeId]: Error {
+  message='Error: strict mode violation: locator("#orderInTakeId") resolved to 2 elements:
+    1) <input type="number" maxlength="12" id="orderInTakeId" name="orderInTakeId" class="form-control" placeholder="Enter Order Intake Cost" oninput="removeNegValueButDecimal(this)" onkeypress="return event.keyCode === 8 ||event.keyCode===46|| event.charCode >= 48 && event.charCode <= 57"/> aka getByRole(AriaRole.SPINBUTTON, new Page.GetByRoleOptions().setName("Order Intake Cost :"))
+    2) <span id="orderInTakeId" class="input-group-text">INR</span> aka locator("#orderInTakeId").nth(1)
+
+  name='Error
+  stack='Error: Error: strict mode violation: locator("#orderInTakeId") resolved to 2 elements:
+    1) <input type="number" maxlength="12" id="orderInTakeId" name="orderInTakeId" class="form-control" placeholder="Enter Order Intake Cost" oninput="removeNegValueButDecimal(this)" onkeypress="return event.keyCode === 8 ||event.keyCode===46|| event.charCode >= 48 && event.charCode <= 57"/> aka getByRole(AriaRole.SPINBUTTON, new Page.GetByRoleOptions().setName("Order Intake Cost :"))
+    2) <span id="orderInTakeId" class="input-group-text">INR</span> aka locator("#orderInTakeId").nth(1)
+
+    at CRExecutionContext.evaluateWithArguments (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\chromium\crExecutionContext.js:82:33)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\javascript.js:228:12)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\frames.js:646:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\frames.js:935:24)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\frames.js:631:14
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\dispatchers\frameDispatcher.js:105:85)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\dispatchers\dispatcher.js:98:14)
+}
+Call log:
+-   - waiting for locator("#orderInTakeId") to be visible
+
+2025-07-18 13:17:03 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Order Intake Function: Error {
+  message='Error: strict mode violation: locator("#orderInTakeId") resolved to 2 elements:
+    1) <input type="number" maxlength="12" id="orderInTakeId" name="orderInTakeId" class="form-control" placeholder="Enter Order Intake Cost" oninput="removeNegValueButDecimal(this)" onkeypress="return event.keyCode === 8 ||event.keyCode===46|| event.charCode >= 48 && event.charCode <= 57"/> aka getByRole(AriaRole.SPINBUTTON, new Page.GetByRoleOptions().setName("Order Intake Cost :"))
+    2) <span id="orderInTakeId" class="input-group-text">INR</span> aka locator("#orderInTakeId").nth(1)
+
+  name='Error
+  stack='Error: Error: strict mode violation: locator("#orderInTakeId") resolved to 2 elements:
+    1) <input type="number" maxlength="12" id="orderInTakeId" name="orderInTakeId" class="form-control" placeholder="Enter Order Intake Cost" oninput="removeNegValueButDecimal(this)" onkeypress="return event.keyCode === 8 ||event.keyCode===46|| event.charCode >= 48 && event.charCode <= 57"/> aka getByRole(AriaRole.SPINBUTTON, new Page.GetByRoleOptions().setName("Order Intake Cost :"))
+    2) <span id="orderInTakeId" class="input-group-text">INR</span> aka locator("#orderInTakeId").nth(1)
+
+    at CRExecutionContext.evaluateWithArguments (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\chromium\crExecutionContext.js:82:33)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\javascript.js:228:12)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\frames.js:965:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\frames.js:935:24)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\frames.js:1073:29
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.fill (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\dispatchers\frameDispatcher.js:169:12)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11669217568869498609\package\lib\server\dispatchers\dispatcher.js:98:14)
+}
+Call log:
+-   - waiting for locator("#orderInTakeId")
+
+2025-07-18 13:18:03 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#orderInTakeId]: Error {
+  message='Error: strict mode violation: locator("#orderInTakeId") resolved to 2 elements:
+    1) <input type="number" maxlength="12" id="orderInTakeId" name="orderInTakeId" class="form-control" placeholder="Enter Order Intake Cost" oninput="removeNegValueButDecimal(this)" onkeypress="return event.keyCode === 8 ||event.keyCode===46|| event.charCode >= 48 && event.charCode <= 57"/> aka getByRole(AriaRole.SPINBUTTON, new Page.GetByRoleOptions().setName("Order Intake Cost :"))
+    2) <span id="orderInTakeId" class="input-group-text">INR</span> aka locator("#orderInTakeId").nth(1)
+
+  name='Error
+  stack='Error: Error: strict mode violation: locator("#orderInTakeId") resolved to 2 elements:
+    1) <input type="number" maxlength="12" id="orderInTakeId" name="orderInTakeId" class="form-control" placeholder="Enter Order Intake Cost" oninput="removeNegValueButDecimal(this)" onkeypress="return event.keyCode === 8 ||event.keyCode===46|| event.charCode >= 48 && event.charCode <= 57"/> aka getByRole(AriaRole.SPINBUTTON, new Page.GetByRoleOptions().setName("Order Intake Cost :"))
+    2) <span id="orderInTakeId" class="input-group-text">INR</span> aka locator("#orderInTakeId").nth(1)
+
+    at CRExecutionContext.evaluateWithArguments (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\chromium\crExecutionContext.js:82:33)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\javascript.js:228:12)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\frames.js:646:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\frames.js:935:24)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\frames.js:631:14
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\dispatchers\frameDispatcher.js:105:85)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\dispatchers\dispatcher.js:98:14)
+}
+Call log:
+-   - waiting for locator("#orderInTakeId") to be visible
+
+2025-07-18 14:21:02 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Order Intake Function: Error {
+  message='Error: strict mode violation: locator("#orderInTakeId") resolved to 2 elements:
+    1) <input type="number" maxlength="12" id="orderInTakeId" name="orderInTakeId" class="form-control" placeholder="Enter Order Intake Cost" oninput="removeNegValueButDecimal(this)" onkeypress="return event.keyCode === 8 ||event.keyCode===46|| event.charCode >= 48 && event.charCode <= 57"/> aka getByRole(AriaRole.SPINBUTTON, new Page.GetByRoleOptions().setName("Order Intake Cost :"))
+    2) <span id="orderInTakeId" class="input-group-text">INR</span> aka locator("#orderInTakeId").nth(1)
+
+  name='Error
+  stack='Error: Error: strict mode violation: locator("#orderInTakeId") resolved to 2 elements:
+    1) <input type="number" maxlength="12" id="orderInTakeId" name="orderInTakeId" class="form-control" placeholder="Enter Order Intake Cost" oninput="removeNegValueButDecimal(this)" onkeypress="return event.keyCode === 8 ||event.keyCode===46|| event.charCode >= 48 && event.charCode <= 57"/> aka getByRole(AriaRole.SPINBUTTON, new Page.GetByRoleOptions().setName("Order Intake Cost :"))
+    2) <span id="orderInTakeId" class="input-group-text">INR</span> aka locator("#orderInTakeId").nth(1)
+
+    at CRExecutionContext.evaluateWithArguments (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\chromium\crExecutionContext.js:82:33)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\javascript.js:228:12)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\frames.js:965:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\frames.js:935:24)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\frames.js:1073:29
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.fill (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\dispatchers\frameDispatcher.js:169:12)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16886407469166789829\package\lib\server\dispatchers\dispatcher.js:98:14)
+}
+Call log:
+-   - waiting for locator("#orderInTakeId")
+
+2025-07-18 14:22:00 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#orderInTakeId]: Error {
+  message='Error: strict mode violation: locator("#orderInTakeId") resolved to 2 elements:
+    1) <input type="number" maxlength="12" id="orderInTakeId" name="orderInTakeId" class="form-control" placeholder="Enter Order Intake Cost" oninput="removeNegValueButDecimal(this)" onkeypress="return event.keyCode === 8 ||event.keyCode===46|| event.charCode >= 48 && event.charCode <= 57"/> aka getByRole(AriaRole.SPINBUTTON, new Page.GetByRoleOptions().setName("Order Intake Cost :"))
+    2) <span id="orderInTakeId" class="input-group-text">INR</span> aka locator("#orderInTakeId").nth(1)
+
+  name='Error
+  stack='Error: Error: strict mode violation: locator("#orderInTakeId") resolved to 2 elements:
+    1) <input type="number" maxlength="12" id="orderInTakeId" name="orderInTakeId" class="form-control" placeholder="Enter Order Intake Cost" oninput="removeNegValueButDecimal(this)" onkeypress="return event.keyCode === 8 ||event.keyCode===46|| event.charCode >= 48 && event.charCode <= 57"/> aka getByRole(AriaRole.SPINBUTTON, new Page.GetByRoleOptions().setName("Order Intake Cost :"))
+    2) <span id="orderInTakeId" class="input-group-text">INR</span> aka locator("#orderInTakeId").nth(1)
+
+    at CRExecutionContext.evaluateWithArguments (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\chromium\crExecutionContext.js:82:33)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\javascript.js:228:12)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\frames.js:646:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\frames.js:935:24)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\frames.js:631:14
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\dispatchers\frameDispatcher.js:105:85)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\dispatchers\dispatcher.js:98:14)
+}
+Call log:
+-   - waiting for locator("#orderInTakeId") to be visible
+
+2025-07-18 14:23:15 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Order Intake Function: Error {
+  message='Error: strict mode violation: locator("#orderInTakeId") resolved to 2 elements:
+    1) <input type="number" maxlength="12" id="orderInTakeId" name="orderInTakeId" class="form-control" placeholder="Enter Order Intake Cost" oninput="removeNegValueButDecimal(this)" onkeypress="return event.keyCode === 8 ||event.keyCode===46|| event.charCode >= 48 && event.charCode <= 57"/> aka getByRole(AriaRole.SPINBUTTON, new Page.GetByRoleOptions().setName("Order Intake Cost :"))
+    2) <span id="orderInTakeId" class="input-group-text">INR</span> aka locator("#orderInTakeId").nth(1)
+
+  name='Error
+  stack='Error: Error: strict mode violation: locator("#orderInTakeId") resolved to 2 elements:
+    1) <input type="number" maxlength="12" id="orderInTakeId" name="orderInTakeId" class="form-control" placeholder="Enter Order Intake Cost" oninput="removeNegValueButDecimal(this)" onkeypress="return event.keyCode === 8 ||event.keyCode===46|| event.charCode >= 48 && event.charCode <= 57"/> aka getByRole(AriaRole.SPINBUTTON, new Page.GetByRoleOptions().setName("Order Intake Cost :"))
+    2) <span id="orderInTakeId" class="input-group-text">INR</span> aka locator("#orderInTakeId").nth(1)
+
+    at CRExecutionContext.evaluateWithArguments (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\chromium\crExecutionContext.js:82:33)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\javascript.js:228:12)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\frames.js:965:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\frames.js:935:24)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\frames.js:1073:29
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.fill (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\dispatchers\frameDispatcher.js:169:12)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17587906254220785786\package\lib\server\dispatchers\dispatcher.js:98:14)
+}
+Call log:
+-   - waiting for locator("#orderInTakeId")
+
+2025-07-18 14:32:33 [TestNG-tests-1] ERROR com.source.classes.requisitions.prType.PurchaseRequisitionTypeHandler - Error in Purchase Type Function: Cannot invoke "com.fasterxml.jackson.databind.JsonNode.asText()" because the return value of "com.fasterxml.jackson.databind.JsonNode.get(String)" is null
+2025-07-18 14:33:39 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#select2-buyergroupid-container]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7364763845987968334\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7364763845987968334\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7364763845987968334\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7364763845987968334\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7364763845987968334\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#select2-buyergroupid-container") to be visible
+
+2025-07-18 14:34:09 [TestNG-tests-1] ERROR com.source.classes.requisitions.prType.PurchaseRequisitionTypeHandler - Error in Purchase Type Function: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7364763845987968334\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7364763845987968334\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7364763845987968334\package\lib\server\dispatchers\frameDispatcher.js:157:30)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7364763845987968334\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7364763845987968334\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#select2-buyergroupid-container")
+
+2025-07-18 14:34:57 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-3052934387757515067\package\lib\server\dispatchers\dispatcher.js:377:15)
+}
+Call log:
+-   - waiting for locator("#addLineRequisitionItems")
+-     - locator resolved to <button type="button" id="addLineRequisitionItems" class="btn btn-sm btn-primary">↵                        Add line Requisition Ite…</button>
+-   - attempting click action
+-     - waiting for element to be visible, enabled and stable
+-     - element is visible, enabled and stable
+-     - scrolling into view if needed
+-     - done scrolling
+-     - <textarea id="description" name="description" aria-invalid="false" class="form-control form-control-sm" placeholder="Please Enter  Description/Specifications"></textarea> from <div tabindex="-1" role="dialog" id="modalRcItem" aria-modal="true" class="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" aria-labelledby="modalItemTitle">…</div> subtree intercepts pointer events
+-   - retrying click action
+-     - waiting for element to be visible, enabled and stable
+-     - element is visible, enabled and stable
+-     - scrolling into view if needed
+-     - done scrolling
+-     - <div tabindex="-1" role="dialog" id="modalRcItem" aria-modal="true" class="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" aria-labelledby="modalItemTitle">…</div> intercepts pointer events
+-   - retrying click action
+-     - waiting 20ms
+-     - waiting for element to be visible, enabled and stable
+-     - element is visible, enabled and stable
+-     - scrolling into view if needed
+-     - done scrolling
+-     - <div class="modal-backdrop fade"></div> intercepts pointer events
+-   2 × retrying click action
+-       - waiting 100ms
+-       - waiting for element to be visible, enabled and stable
+-       - element is visible, enabled and stable
+-       - scrolling into view if needed
+-       - done scrolling
+-       - <div class="navbar-nav-wrap">…</div> from <header id="header" class="navbar navbar-expand-lg navbar-fixed navbar-height navbar-container navbar-bordered bg-white">…</header> subtree intercepts pointer events
+-   - retrying click action
+-     - waiting 500ms
+-     - waiting for element to be visible, enabled and stable
+-     - element is visible, enabled and stable
+-     - scrolling into view if needed
+-     - done scrolling
+-     - <span class="d-none d-sm-inline-block">2025↵                    CEIPL.</span> from <div class="footer bg-white border-top">…</div> subtree intercepts pointer events
+-   - retrying click action
+-     - waiting 500ms
+
+2025-07-18 14:37:42 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Requisition Create Function: Final key 'requisitionStatus' does not exist under path.
+2025-07-18 14:39:39 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Requisition Create Function: Final key 'requisitionStatus' does not exist under path.
+2025-07-18 14:41:39 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Requisition Create Function: Final key 'requisitionStatus' does not exist under path.
+2025-07-18 14:44:57 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Requisition Create Function: Final key 'requisitionUid' does not exist under path.
+2025-07-18 14:45:45 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Requisition Create Function: Final key 'requisitionId' does not exist under path.
+2025-07-18 14:53:11 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Requisition Create Function: Final key 'requisitionId' does not exist under path.
+2025-07-18 14:57:43 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#attachDocs]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1595808582959894503\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1595808582959894503\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1595808582959894503\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1595808582959894503\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1595808582959894503\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#attachDocs") to be visible
+
+2025-07-18 15:25:49 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#select2-warrantyRequirementsId-container]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11498734972316741310\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11498734972316741310\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11498734972316741310\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11498734972316741310\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11498734972316741310\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#select2-warrantyRequirementsId-container") to be visible
+
+2025-07-18 15:30:06 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#select2-buyerGroupId-container]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#select2-buyerGroupId-container") to be visible
+
+2025-07-18 15:30:15 [TestNG-tests-1] ERROR com.source.classes.requisitions.prType.PurchaseRequisitionTypeHandler - Error in Purchase Type Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\utils\isomorphic\stackTrace.js:36:17)
+    at LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\utils\isomorphic\manualPromise.js:89:52)
+    at LongStandingScope.race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\utils\isomorphic\manualPromise.js:82:17)
+    at C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\utils\isomorphic\manualPromise.js:79:43
+    at Array.map (<anonymous>)
+    at LongStandingScope.raceMultiple (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\utils\isomorphic\manualPromise.js:79:32)
+    at Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\server\frames.js:931:40)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\server\frames.js:1023:29
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\server\dispatchers\frameDispatcher.js:157:12)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\server\dispatchers\dispatcher.js:98:14)
+    at async DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-7533663467274396426\package\lib\server\dispatchers\dispatcher.js:366:22)
+}
+Call log:
+-   - waiting for locator("#select2-buyerGroupId-container")
+
+2025-07-18 15:34:14 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//input[@id='orderInTakeId']]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-2832247861854510828\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-2832247861854510828\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-2832247861854510828\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-2832247861854510828\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-2832247861854510828\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("//input[@id='orderInTakeId']") to be visible
+
+2025-07-18 15:38:39 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//input[@id='orderintakeId']]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-15706713750234691759\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-15706713750234691759\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-15706713750234691759\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-15706713750234691759\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-15706713750234691759\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("//input[@id='orderintakeId']") to be visible
+
+2025-07-18 15:39:15 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#itemImport]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1542661826786681571\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1542661826786681571\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1542661826786681571\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1542661826786681571\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-1542661826786681571\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#itemImport") to be visible
+
+2025-07-18 15:46:10 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#itemImport]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14261761304858648255\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14261761304858648255\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14261761304858648255\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14261761304858648255\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14261761304858648255\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#itemImport") to be visible
+
+2025-07-18 15:48:50 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Non-Catalog Requisition Items IMPORT Function: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14261761304858648255\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14261761304858648255\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14261761304858648255\package\lib\server\dispatchers\frameDispatcher.js:157:30)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14261761304858648255\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-14261761304858648255\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#itemImport")
+
+2025-07-18 15:51:20 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@.bootbox-accept]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9108293258487139019\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9108293258487139019\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9108293258487139019\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9108293258487139019\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9108293258487139019\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator(".bootbox-accept") to be visible
+
+2025-07-18 15:51:50 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Requisition Create Function: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9108293258487139019\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9108293258487139019\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9108293258487139019\package\lib\server\dispatchers\frameDispatcher.js:157:30)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9108293258487139019\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9108293258487139019\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator(".bootbox-accept")
+
+2025-07-18 15:58:49 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@.bootbox-accept]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator(".bootbox-accept") to be visible
+
+2025-07-18 15:58:50 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Requisition Create Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\utils\isomorphic\stackTrace.js:36:17)
+    at LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\utils\isomorphic\manualPromise.js:89:52)
+    at LongStandingScope.race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\utils\isomorphic\manualPromise.js:82:17)
+    at C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\utils\isomorphic\manualPromise.js:79:43
+    at Array.map (<anonymous>)
+    at LongStandingScope.raceMultiple (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\utils\isomorphic\manualPromise.js:79:32)
+    at Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\server\frames.js:931:40)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\server\frames.js:1023:29
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\server\dispatchers\frameDispatcher.js:157:12)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\server\dispatchers\dispatcher.js:98:14)
+    at async DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16127631180767731404\package\lib\server\dispatchers\dispatcher.js:366:22)
+}
+Call log:
+-   - waiting for locator(".bootbox-accept")
+
+2025-07-21 17:50:07 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#select2-pricevalidityId-container]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17341384804208832867\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17341384804208832867\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17341384804208832867\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17341384804208832867\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-17341384804208832867\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#select2-pricevalidityId-container") to be visible
+
+2025-07-21 17:51:17 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]]: Error {
+  message='Error: strict mode violation: locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") resolved to 32 elements:
+    1) <span aria-label="June 30, 2025" class="flatpickr-day prevMonthDay flatpickr-disabled">30</span> aka getByLabel("June 30,").first()
+    2) <span aria-label="July 1, 2025" class="flatpickr-day flatpickr-disabled">1</span> aka getByLabel("July 1,").first()
+    3) <span aria-label="July 2, 2025" class="flatpickr-day flatpickr-disabled">2</span> aka getByLabel("July 2,").first()
+    4) <span aria-label="July 3, 2025" class="flatpickr-day flatpickr-disabled">3</span> aka getByLabel("July 3,").first()
+    5) <span aria-label="July 4, 2025" class="flatpickr-day flatpickr-disabled">4</span> aka getByLabel("July 4,").first()
+    6) <span aria-label="July 5, 2025" class="flatpickr-day flatpickr-disabled">5</span> aka getByLabel("July 5,").first()
+    7) <span aria-label="July 6, 2025" class="flatpickr-day flatpickr-disabled">6</span> aka getByLabel("July 6,").first()
+    8) <span aria-label="July 7, 2025" class="flatpickr-day flatpickr-disabled">7</span> aka getByLabel("July 7,").first()
+    9) <span aria-label="July 8, 2025" class="flatpickr-day flatpickr-disabled">8</span> aka getByLabel("July 8,").first()
+    10) <span aria-label="July 9, 2025" class="flatpickr-day flatpickr-disabled">9</span> aka getByLabel("July 9,").first()
+    ...
+
+  name='Error
+  stack='Error: Error: strict mode violation: locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") resolved to 32 elements:
+    1) <span aria-label="June 30, 2025" class="flatpickr-day prevMonthDay flatpickr-disabled">30</span> aka getByLabel("June 30,").first()
+    2) <span aria-label="July 1, 2025" class="flatpickr-day flatpickr-disabled">1</span> aka getByLabel("July 1,").first()
+    3) <span aria-label="July 2, 2025" class="flatpickr-day flatpickr-disabled">2</span> aka getByLabel("July 2,").first()
+    4) <span aria-label="July 3, 2025" class="flatpickr-day flatpickr-disabled">3</span> aka getByLabel("July 3,").first()
+    5) <span aria-label="July 4, 2025" class="flatpickr-day flatpickr-disabled">4</span> aka getByLabel("July 4,").first()
+    6) <span aria-label="July 5, 2025" class="flatpickr-day flatpickr-disabled">5</span> aka getByLabel("July 5,").first()
+    7) <span aria-label="July 6, 2025" class="flatpickr-day flatpickr-disabled">6</span> aka getByLabel("July 6,").first()
+    8) <span aria-label="July 7, 2025" class="flatpickr-day flatpickr-disabled">7</span> aka getByLabel("July 7,").first()
+    9) <span aria-label="July 8, 2025" class="flatpickr-day flatpickr-disabled">8</span> aka getByLabel("July 8,").first()
+    10) <span aria-label="July 9, 2025" class="flatpickr-day flatpickr-disabled">9</span> aka getByLabel("July 9,").first()
+    ...
+
+    at CRExecutionContext.evaluateWithArguments (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\server\chromium\crExecutionContext.js:82:33)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\server\javascript.js:228:12)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\server\frames.js:646:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\server\frames.js:935:24)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\server\frames.js:631:14
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\server\dispatchers\frameDispatcher.js:105:85)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\server\dispatchers\dispatcher.js:98:14)
+}
+Call log:
+-   - waiting for locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") to be visible
+
+2025-07-21 17:51:35 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//li[contains(text(), "BG2 - CONTROL ROOM / LVS / CABLES")]]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-8051927429841702355\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("//li[contains(text(), \"BG2 - CONTROL ROOM / LVS / CABLES\")]") to be visible
+
+2025-07-21 17:52:18 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]]: Error {
+  message='Error: strict mode violation: locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") resolved to 32 elements:
+    1) <span aria-label="June 30, 2025" class="flatpickr-day prevMonthDay flatpickr-disabled">30</span> aka getByLabel("June 30,").first()
+    2) <span aria-label="July 1, 2025" class="flatpickr-day flatpickr-disabled">1</span> aka getByLabel("July 1,").first()
+    3) <span aria-label="July 2, 2025" class="flatpickr-day flatpickr-disabled">2</span> aka getByLabel("July 2,").first()
+    4) <span aria-label="July 3, 2025" class="flatpickr-day flatpickr-disabled">3</span> aka getByLabel("July 3,").first()
+    5) <span aria-label="July 4, 2025" class="flatpickr-day flatpickr-disabled">4</span> aka getByLabel("July 4,").first()
+    6) <span aria-label="July 5, 2025" class="flatpickr-day flatpickr-disabled">5</span> aka getByLabel("July 5,").first()
+    7) <span aria-label="July 6, 2025" class="flatpickr-day flatpickr-disabled">6</span> aka getByLabel("July 6,").first()
+    8) <span aria-label="July 7, 2025" class="flatpickr-day flatpickr-disabled">7</span> aka getByLabel("July 7,").first()
+    9) <span aria-label="July 8, 2025" class="flatpickr-day flatpickr-disabled">8</span> aka getByLabel("July 8,").first()
+    10) <span aria-label="July 9, 2025" class="flatpickr-day flatpickr-disabled">9</span> aka getByLabel("July 9,").first()
+    ...
+
+  name='Error
+  stack='Error: Error: strict mode violation: locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") resolved to 32 elements:
+    1) <span aria-label="June 30, 2025" class="flatpickr-day prevMonthDay flatpickr-disabled">30</span> aka getByLabel("June 30,").first()
+    2) <span aria-label="July 1, 2025" class="flatpickr-day flatpickr-disabled">1</span> aka getByLabel("July 1,").first()
+    3) <span aria-label="July 2, 2025" class="flatpickr-day flatpickr-disabled">2</span> aka getByLabel("July 2,").first()
+    4) <span aria-label="July 3, 2025" class="flatpickr-day flatpickr-disabled">3</span> aka getByLabel("July 3,").first()
+    5) <span aria-label="July 4, 2025" class="flatpickr-day flatpickr-disabled">4</span> aka getByLabel("July 4,").first()
+    6) <span aria-label="July 5, 2025" class="flatpickr-day flatpickr-disabled">5</span> aka getByLabel("July 5,").first()
+    7) <span aria-label="July 6, 2025" class="flatpickr-day flatpickr-disabled">6</span> aka getByLabel("July 6,").first()
+    8) <span aria-label="July 7, 2025" class="flatpickr-day flatpickr-disabled">7</span> aka getByLabel("July 7,").first()
+    9) <span aria-label="July 8, 2025" class="flatpickr-day flatpickr-disabled">8</span> aka getByLabel("July 8,").first()
+    10) <span aria-label="July 9, 2025" class="flatpickr-day flatpickr-disabled">9</span> aka getByLabel("July 9,").first()
+    ...
+
+    at CRExecutionContext.evaluateWithArguments (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11631284863458650529\package\lib\server\chromium\crExecutionContext.js:82:33)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11631284863458650529\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11631284863458650529\package\lib\server\javascript.js:228:12)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11631284863458650529\package\lib\server\frames.js:646:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11631284863458650529\package\lib\server\frames.js:935:24)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11631284863458650529\package\lib\server\frames.js:631:14
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11631284863458650529\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11631284863458650529\package\lib\server\dispatchers\frameDispatcher.js:105:85)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11631284863458650529\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11631284863458650529\package\lib\server\dispatchers\dispatcher.js:98:14)
+}
+Call log:
+-   - waiting for locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") to be visible
+
+2025-07-21 17:54:08 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]]: Error {
+  message='Error: strict mode violation: locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") resolved to 32 elements:
+    1) <span aria-label="June 30, 2025" class="flatpickr-day prevMonthDay flatpickr-disabled">30</span> aka getByLabel("June 30,").first()
+    2) <span aria-label="July 1, 2025" class="flatpickr-day flatpickr-disabled">1</span> aka getByLabel("July 1,").first()
+    3) <span aria-label="July 2, 2025" class="flatpickr-day flatpickr-disabled">2</span> aka getByLabel("July 2,").first()
+    4) <span aria-label="July 3, 2025" class="flatpickr-day flatpickr-disabled">3</span> aka getByLabel("July 3,").first()
+    5) <span aria-label="July 4, 2025" class="flatpickr-day flatpickr-disabled">4</span> aka getByLabel("July 4,").first()
+    6) <span aria-label="July 5, 2025" class="flatpickr-day flatpickr-disabled">5</span> aka getByLabel("July 5,").first()
+    7) <span aria-label="July 6, 2025" class="flatpickr-day flatpickr-disabled">6</span> aka getByLabel("July 6,").first()
+    8) <span aria-label="July 7, 2025" class="flatpickr-day flatpickr-disabled">7</span> aka getByLabel("July 7,").first()
+    9) <span aria-label="July 8, 2025" class="flatpickr-day flatpickr-disabled">8</span> aka getByLabel("July 8,").first()
+    10) <span aria-label="July 9, 2025" class="flatpickr-day flatpickr-disabled">9</span> aka getByLabel("July 9,").first()
+    ...
+
+  name='Error
+  stack='Error: Error: strict mode violation: locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") resolved to 32 elements:
+    1) <span aria-label="June 30, 2025" class="flatpickr-day prevMonthDay flatpickr-disabled">30</span> aka getByLabel("June 30,").first()
+    2) <span aria-label="July 1, 2025" class="flatpickr-day flatpickr-disabled">1</span> aka getByLabel("July 1,").first()
+    3) <span aria-label="July 2, 2025" class="flatpickr-day flatpickr-disabled">2</span> aka getByLabel("July 2,").first()
+    4) <span aria-label="July 3, 2025" class="flatpickr-day flatpickr-disabled">3</span> aka getByLabel("July 3,").first()
+    5) <span aria-label="July 4, 2025" class="flatpickr-day flatpickr-disabled">4</span> aka getByLabel("July 4,").first()
+    6) <span aria-label="July 5, 2025" class="flatpickr-day flatpickr-disabled">5</span> aka getByLabel("July 5,").first()
+    7) <span aria-label="July 6, 2025" class="flatpickr-day flatpickr-disabled">6</span> aka getByLabel("July 6,").first()
+    8) <span aria-label="July 7, 2025" class="flatpickr-day flatpickr-disabled">7</span> aka getByLabel("July 7,").first()
+    9) <span aria-label="July 8, 2025" class="flatpickr-day flatpickr-disabled">8</span> aka getByLabel("July 8,").first()
+    10) <span aria-label="July 9, 2025" class="flatpickr-day flatpickr-disabled">9</span> aka getByLabel("July 9,").first()
+    ...
+
+    at CRExecutionContext.evaluateWithArguments (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-331174580931284080\package\lib\server\chromium\crExecutionContext.js:82:33)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-331174580931284080\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-331174580931284080\package\lib\server\javascript.js:228:12)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-331174580931284080\package\lib\server\frames.js:646:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-331174580931284080\package\lib\server\frames.js:935:24)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-331174580931284080\package\lib\server\frames.js:631:14
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-331174580931284080\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-331174580931284080\package\lib\server\dispatchers\frameDispatcher.js:105:85)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-331174580931284080\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-331174580931284080\package\lib\server\dispatchers\dispatcher.js:98:14)
+}
+Call log:
+-   - waiting for locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") to be visible
+
+2025-07-21 18:02:45 [TestNG-tests-2] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]]: Error {
+  message='Error: strict mode violation: locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") resolved to 32 elements:
+    1) <span aria-label="June 30, 2025" class="flatpickr-day prevMonthDay flatpickr-disabled">30</span> aka getByLabel("June 30,").first()
+    2) <span aria-label="July 1, 2025" class="flatpickr-day flatpickr-disabled">1</span> aka getByLabel("July 1,").first()
+    3) <span aria-label="July 2, 2025" class="flatpickr-day flatpickr-disabled">2</span> aka getByLabel("July 2,").first()
+    4) <span aria-label="July 3, 2025" class="flatpickr-day flatpickr-disabled">3</span> aka getByLabel("July 3,").first()
+    5) <span aria-label="July 4, 2025" class="flatpickr-day flatpickr-disabled">4</span> aka getByLabel("July 4,").first()
+    6) <span aria-label="July 5, 2025" class="flatpickr-day flatpickr-disabled">5</span> aka getByLabel("July 5,").first()
+    7) <span aria-label="July 6, 2025" class="flatpickr-day flatpickr-disabled">6</span> aka getByLabel("July 6,").first()
+    8) <span aria-label="July 7, 2025" class="flatpickr-day flatpickr-disabled">7</span> aka getByLabel("July 7,").first()
+    9) <span aria-label="July 8, 2025" class="flatpickr-day flatpickr-disabled">8</span> aka getByLabel("July 8,").first()
+    10) <span aria-label="July 9, 2025" class="flatpickr-day flatpickr-disabled">9</span> aka getByLabel("July 9,").first()
+    ...
+
+  name='Error
+  stack='Error: Error: strict mode violation: locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") resolved to 32 elements:
+    1) <span aria-label="June 30, 2025" class="flatpickr-day prevMonthDay flatpickr-disabled">30</span> aka getByLabel("June 30,").first()
+    2) <span aria-label="July 1, 2025" class="flatpickr-day flatpickr-disabled">1</span> aka getByLabel("July 1,").first()
+    3) <span aria-label="July 2, 2025" class="flatpickr-day flatpickr-disabled">2</span> aka getByLabel("July 2,").first()
+    4) <span aria-label="July 3, 2025" class="flatpickr-day flatpickr-disabled">3</span> aka getByLabel("July 3,").first()
+    5) <span aria-label="July 4, 2025" class="flatpickr-day flatpickr-disabled">4</span> aka getByLabel("July 4,").first()
+    6) <span aria-label="July 5, 2025" class="flatpickr-day flatpickr-disabled">5</span> aka getByLabel("July 5,").first()
+    7) <span aria-label="July 6, 2025" class="flatpickr-day flatpickr-disabled">6</span> aka getByLabel("July 6,").first()
+    8) <span aria-label="July 7, 2025" class="flatpickr-day flatpickr-disabled">7</span> aka getByLabel("July 7,").first()
+    9) <span aria-label="July 8, 2025" class="flatpickr-day flatpickr-disabled">8</span> aka getByLabel("July 8,").first()
+    10) <span aria-label="July 9, 2025" class="flatpickr-day flatpickr-disabled">9</span> aka getByLabel("July 9,").first()
+    ...
+
+    at CRExecutionContext.evaluateWithArguments (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9703222627187251289\package\lib\server\chromium\crExecutionContext.js:82:33)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9703222627187251289\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9703222627187251289\package\lib\server\javascript.js:228:12)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9703222627187251289\package\lib\server\frames.js:646:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9703222627187251289\package\lib\server\frames.js:935:24)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9703222627187251289\package\lib\server\frames.js:631:14
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9703222627187251289\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9703222627187251289\package\lib\server\dispatchers\frameDispatcher.js:105:85)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9703222627187251289\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9703222627187251289\package\lib\server\dispatchers\dispatcher.js:98:14)
+}
+Call log:
+-   - waiting for locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") to be visible
+
+2025-07-24 10:09:02 [TestNG-tests-2] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]]: Error {
+  message='Error: strict mode violation: locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") resolved to 32 elements:
+    1) <span aria-label="June 30, 2025" class="flatpickr-day prevMonthDay flatpickr-disabled">30</span> aka getByLabel("June 30,").first()
+    2) <span aria-label="July 1, 2025" class="flatpickr-day flatpickr-disabled">1</span> aka getByLabel("July 1,").first()
+    3) <span aria-label="July 2, 2025" class="flatpickr-day flatpickr-disabled">2</span> aka getByLabel("July 2,").first()
+    4) <span aria-label="July 3, 2025" class="flatpickr-day flatpickr-disabled">3</span> aka getByLabel("July 3,").first()
+    5) <span aria-label="July 4, 2025" class="flatpickr-day flatpickr-disabled">4</span> aka getByLabel("July 4,").first()
+    6) <span aria-label="July 5, 2025" class="flatpickr-day flatpickr-disabled">5</span> aka getByLabel("July 5,").first()
+    7) <span aria-label="July 6, 2025" class="flatpickr-day flatpickr-disabled">6</span> aka getByLabel("July 6,").first()
+    8) <span aria-label="July 7, 2025" class="flatpickr-day flatpickr-disabled">7</span> aka getByLabel("July 7,").first()
+    9) <span aria-label="July 8, 2025" class="flatpickr-day flatpickr-disabled">8</span> aka getByLabel("July 8,").first()
+    10) <span aria-label="July 9, 2025" class="flatpickr-day flatpickr-disabled">9</span> aka getByLabel("July 9,").first()
+    ...
+
+  name='Error
+  stack='Error: Error: strict mode violation: locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") resolved to 32 elements:
+    1) <span aria-label="June 30, 2025" class="flatpickr-day prevMonthDay flatpickr-disabled">30</span> aka getByLabel("June 30,").first()
+    2) <span aria-label="July 1, 2025" class="flatpickr-day flatpickr-disabled">1</span> aka getByLabel("July 1,").first()
+    3) <span aria-label="July 2, 2025" class="flatpickr-day flatpickr-disabled">2</span> aka getByLabel("July 2,").first()
+    4) <span aria-label="July 3, 2025" class="flatpickr-day flatpickr-disabled">3</span> aka getByLabel("July 3,").first()
+    5) <span aria-label="July 4, 2025" class="flatpickr-day flatpickr-disabled">4</span> aka getByLabel("July 4,").first()
+    6) <span aria-label="July 5, 2025" class="flatpickr-day flatpickr-disabled">5</span> aka getByLabel("July 5,").first()
+    7) <span aria-label="July 6, 2025" class="flatpickr-day flatpickr-disabled">6</span> aka getByLabel("July 6,").first()
+    8) <span aria-label="July 7, 2025" class="flatpickr-day flatpickr-disabled">7</span> aka getByLabel("July 7,").first()
+    9) <span aria-label="July 8, 2025" class="flatpickr-day flatpickr-disabled">8</span> aka getByLabel("July 8,").first()
+    10) <span aria-label="July 9, 2025" class="flatpickr-day flatpickr-disabled">9</span> aka getByLabel("July 9,").first()
+    ...
+
+    at CRExecutionContext.evaluateWithArguments (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16799900113965969304\package\lib\server\chromium\crExecutionContext.js:82:33)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16799900113965969304\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async evaluateExpression (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16799900113965969304\package\lib\server\javascript.js:228:12)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16799900113965969304\package\lib\server\frames.js:646:22
+    at async Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16799900113965969304\package\lib\server\frames.js:935:24)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16799900113965969304\package\lib\server\frames.js:631:14
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16799900113965969304\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16799900113965969304\package\lib\server\dispatchers\frameDispatcher.js:105:85)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16799900113965969304\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16799900113965969304\package\lib\server\dispatchers\dispatcher.js:98:14)
+}
+Call log:
+-   - waiting for locator("//div[contains(@class,'open')]//div[@class='dayContainer']/span[not(contains(@class,'next'))]") to be visible
+
+2025-07-24 10:10:04 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@.bootbox-accept]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13788811114718482841\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13788811114718482841\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13788811114718482841\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13788811114718482841\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13788811114718482841\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator(".bootbox-accept") to be visible
+
+2025-07-24 10:10:34 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Requisition Create Function: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13788811114718482841\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13788811114718482841\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13788811114718482841\package\lib\server\dispatchers\frameDispatcher.js:157:30)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13788811114718482841\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13788811114718482841\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator(".bootbox-accept")
+
+2025-07-24 10:13:10 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//li[contains(text(), "4 Years")]]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("//li[contains(text(), \"4 Years\")]") to be visible
+
+2025-07-24 10:13:18 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Warranty Requirements Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\utils\isomorphic\stackTrace.js:36:17)
+    at LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\utils\isomorphic\manualPromise.js:89:52)
+    at LongStandingScope.race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\utils\isomorphic\manualPromise.js:82:17)
+    at C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\utils\isomorphic\manualPromise.js:79:43
+    at Array.map (<anonymous>)
+    at LongStandingScope.raceMultiple (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\utils\isomorphic\manualPromise.js:79:32)
+    at Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\frames.js:931:40)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\frames.js:1023:29
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\dispatchers\frameDispatcher.js:157:12)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\dispatchers\dispatcher.js:98:14)
+    at async DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\dispatchers\dispatcher.js:366:22)
+}
+Call log:
+-   - waiting for locator("//li[contains(text(), \"4 Years\")]")
+
+2025-07-24 10:13:18 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#select2-checkerId-container]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:13:18 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Shipping Mode Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:13:18 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//*[@id='dates']/div[2]/input[2]]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:13:18 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Expected PO Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:13:18 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//*[@id='dates']/div[3]/input[2]]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:13:18 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Expected Delivery Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:13:18 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@.select2-search__field]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:13:18 [TestNG-tests-1] ERROR com.source.classes.requisitions.prType.PurchaseRequisitionTypeHandler - Error in Purchase Type Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-9168512154527114999\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:20:16 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//li[contains(text(), "4 Years")]]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("//li[contains(text(), \"4 Years\")]") to be visible
+
+2025-07-24 10:20:18 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Warranty Requirements Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\utils\isomorphic\stackTrace.js:36:17)
+    at LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\utils\isomorphic\manualPromise.js:89:52)
+    at LongStandingScope.race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\utils\isomorphic\manualPromise.js:82:17)
+    at C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\utils\isomorphic\manualPromise.js:79:43
+    at Array.map (<anonymous>)
+    at LongStandingScope.raceMultiple (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\utils\isomorphic\manualPromise.js:79:32)
+    at Frame.retryWithProgressAndTimeouts (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\frames.js:931:40)
+    at async C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\frames.js:1023:29
+    at async ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\progress.js:79:22)
+    at async FrameDispatcher.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\dispatchers\frameDispatcher.js:157:12)
+    at async LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\utils\isomorphic\manualPromise.js:94:14)
+    at async FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\dispatchers\dispatcher.js:98:14)
+    at async DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\dispatchers\dispatcher.js:366:22)
+}
+Call log:
+-   - waiting for locator("//li[contains(text(), \"4 Years\")]")
+
+2025-07-24 10:20:18 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#select2-checkerId-container]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:20:18 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Shipping Mode Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:20:18 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//*[@id='dates']/div[2]/input[2]]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:20:18 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Expected PO Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:20:18 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//*[@id='dates']/div[3]/input[2]]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:20:18 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Expected Delivery Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:20:18 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@.select2-search__field]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:20:18 [TestNG-tests-1] ERROR com.source.classes.requisitions.prType.PurchaseRequisitionTypeHandler - Error in Purchase Type Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12524900866846887699\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:23:15 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//*[@id='dates']/div[3]/input[2]]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("//*[@id='dates']/div[3]/input[2]") to be visible
+
+2025-07-24 10:23:45 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Expected Delivery Function: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\progress.js:75:26)
+    at Frame.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\frames.js:1022:23)
+    at FrameDispatcher.click (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\dispatchers\frameDispatcher.js:157:30)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("//*[@id='dates']/div[3]/input[2]")
+
+2025-07-24 10:23:50 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@.select2-search__field]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-16529541268854142445\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator(".select2-search__field") to be visible
+
+2025-07-24 10:24:37 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@.select2-search__field]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11024244784837544588\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11024244784837544588\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11024244784837544588\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11024244784837544588\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11024244784837544588\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator(".select2-search__field") to be visible
+
+2025-07-24 10:25:07 [TestNG-tests-1] ERROR com.source.classes.requisitions.prType.PurchaseRequisitionTypeHandler - Error in Purchase Type Function: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11024244784837544588\package\lib\server\progress.js:75:26)
+    at Frame.fill (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11024244784837544588\package\lib\server\frames.js:1072:23)
+    at FrameDispatcher.fill (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11024244784837544588\package\lib\server\dispatchers\frameDispatcher.js:169:30)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11024244784837544588\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11024244784837544588\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator(".select2-search__field")
+
+2025-07-24 10:27:53 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@.select2-search__field]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-6388798072872994350\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-6388798072872994350\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-6388798072872994350\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-6388798072872994350\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-6388798072872994350\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator(".select2-search__field") to be visible
+
+2025-07-24 10:27:56 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@.select2-search__field]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12222054701283359121\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12222054701283359121\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12222054701283359121\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12222054701283359121\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12222054701283359121\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator(".select2-search__field") to be visible
+
+2025-07-24 10:27:57 [TestNG-tests-1] ERROR com.source.classes.requisitions.prType.PurchaseRequisitionTypeHandler - Error in Purchase Type Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-6388798072872994350\package\lib\utils\isomorphic\stackTrace.js:36:17)
+    at LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-6388798072872994350\package\lib\utils\isomorphic\manualPromise.js:89:52)
+    at LongStandingScope.race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-6388798072872994350\package\lib\utils\isomorphic\manualPromise.js:82:17)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-6388798072872994350\package\lib\server\dispatchers\dispatcher.js:98:36)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-6388798072872994350\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator(".select2-search__field")
+
+2025-07-24 10:27:58 [TestNG-tests-1] ERROR com.source.classes.requisitions.prType.PurchaseRequisitionTypeHandler - Error in Purchase Type Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12222054701283359121\package\lib\utils\isomorphic\stackTrace.js:36:17)
+    at LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12222054701283359121\package\lib\utils\isomorphic\manualPromise.js:89:52)
+    at LongStandingScope.race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12222054701283359121\package\lib\utils\isomorphic\manualPromise.js:82:17)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12222054701283359121\package\lib\server\dispatchers\dispatcher.js:98:36)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-12222054701283359121\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator(".select2-search__field")
+
+2025-07-24 10:28:40 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#itemImport]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError:Target page, context or browser has been closed
+Error
+    at captureRawStack (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\utils\isomorphic\stackTrace.js:36:17)
+    at LongStandingScope._race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\utils\isomorphic\manualPromise.js:89:52)
+    at LongStandingScope.race (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\utils\isomorphic\manualPromise.js:82:17)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\server\dispatchers\dispatcher.js:98:36)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#itemImport") to be visible
+-     11 × locator resolved to hidden <a id="itemImport" href="javascript:;" class="btn btn-sm btn-outline-primary">…</a>
+
+2025-07-24 10:28:40 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:28:40 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#attachDocs]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:28:40 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Requisition Attachments Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:28:40 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//button[contains(text(), 'Create')]]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:28:40 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Requisition Create Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-11489611718517919155\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:29:32 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#itemImport]: Error {
+  message='Timeout 5000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 5000ms exceeded.
+    at ProgressController.run (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\server\progress.js:75:26)
+    at Frame.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\server\frames.js:629:23)
+    at FrameDispatcher.waitForSelector (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\server\dispatchers\frameDispatcher.js:105:103)
+    at FrameDispatcher._handleCommand (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\server\dispatchers\dispatcher.js:96:40)
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\server\dispatchers\dispatcher.js:366:39)
+}
+Call log:
+-   - waiting for locator("#itemImport") to be visible
+-     15 × locator resolved to hidden <a id="itemImport" href="javascript:;" class="btn btn-sm btn-outline-primary">…</a>
+
+2025-07-24 10:29:56 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Catalog Requisition Items Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\server\dispatchers\dispatcher.js:377:15)
+}
+Call log:
+-   - waiting for locator("#itemImport")
+-     - locator resolved to <a id="itemImport" href="javascript:;" class="btn btn-sm btn-outline-primary">…</a>
+-   - attempting click action
+-     2 × waiting for element to be visible, enabled and stable
+-       - element is not visible
+-     - retrying click action
+-     - waiting 20ms
+-     2 × waiting for element to be visible, enabled and stable
+-       - element is not visible
+-     - retrying click action
+-       - waiting 100ms
+-     43 × waiting for element to be visible, enabled and stable
+-        - element is not visible
+-      - retrying click action
+-        - waiting 500ms
+
+2025-07-24 10:29:56 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@#attachDocs]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:29:56 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Requisition Attachments Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:29:56 [TestNG-tests-1] ERROR com.utils.LocatorHandlerUtil - Exception in Locator Visible Handler Util for locator [Locator@//button[contains(text(), 'Create')]]: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}
+2025-07-24 10:29:56 [TestNG-tests-1] ERROR com.source.classes.requisitions.create.Create - Exception in Requisition Create Function: Error {
+  message='Target page, context or browser has been closed
+  name='TargetClosedError
+  stack='TargetClosedError: Target page, context or browser has been closed
+    at DispatcherConnection.dispatch (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\server\dispatchers\dispatcher.js:283:44)
+    at transport.onmessage (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\cli\driver.js:52:57)
+    at Immediate._onImmediate (C:\Users\DeepakG\AppData\Local\Temp\playwright-java-13858007698852057649\package\lib\server\utils\pipeTransport.js:77:34)
+    at process.processImmediate (node:internal/timers:491:21)
+}

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com</groupId>
+  <artifactId>GePS-YEF</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <name>GePS-YEF</name>
+  <url>https://github.com/Issac1809</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>18</maven.compiler.source>
+    <maven.compiler.target>18</maven.compiler.target>
+    <testNG-version> 7.10.2 </testNG-version>
+    <extend-reports-version> 5.1.2 </extend-reports-version>
+    <allure-testng-reports-version> 2.29.0 </allure-testng-reports-version>
+    <allure-maven-reports-version> 2.14.0 </allure-maven-reports-version>
+    <playwright-version>1.47.0</playwright-version>
+    <maven-compiler-version>3.13.0</maven-compiler-version>
+    <maven-surefire-plugin>3.2.5</maven-surefire-plugin>
+  </properties>
+
+  <dependencies>
+    
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>${testNG-version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-testng</artifactId>
+      <version>${allure-testng-reports-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-maven</artifactId>
+      <version>${allure-maven-reports-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.aventstack</groupId>
+      <artifactId>extentreports</artifactId>
+      <version>${extend-reports-version}</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>com.microsoft.playwright</groupId>
+      <artifactId>playwright</artifactId>
+      <version>${playwright-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.14.2</version>
+    </dependency>
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.12</version>
+          <scope>test</scope>
+      </dependency>
+
+  </dependencies>
+
+  <build>
+
+    <pluginManagement>
+
+      <plugins>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${maven-compiler-version}</version>
+<!--          <configuration>-->
+<!--            <compilerArgs>-->
+<!--              <arg>&#45;&#45;add-exports</arg>-->
+<!--              <arg>jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>-->
+<!--              <arg>&#45;&#45;add-exports</arg>-->
+<!--              <arg>jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED</arg>-->
+<!--              <arg>&#45;&#45;add-exports</arg>-->
+<!--              <arg>jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED</arg>-->
+<!--              <arg>&#45;&#45;add-opens</arg>-->
+<!--              <arg>jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED</arg>-->
+<!--              <arg>&#45;&#45;add-opens</arg>-->
+<!--              <arg>jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED</arg>-->
+<!--              <arg>&#45;&#45;add-opens</arg>-->
+<!--              <arg>jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED</arg>-->
+<!--            </compilerArgs>-->
+<!--          </configuration>-->
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${maven-surefire-plugin}</version>
+          <configuration>
+            <suiteXmlFiles>
+              <suiteXmlFile>src/test/resources/testrunners/testng_functional.xml</suiteXmlFile>
+            </suiteXmlFiles>
+          </configuration>
+        </plugin>
+
+        <plugin>
+          <groupId>io.qameta.allure</groupId>
+          <artifactId>allure-maven-plugin</artifactId>
+          <version>${allure-maven-plugin-version}</version>
+          <configuration>
+            <resultsDirectory>target/allure-results</resultsDirectory>
+            <reportDirectory>target/allure-report</reportDirectory>
+          </configuration>
+        </plugin>
+
+      </plugins>
+
+    </pluginManagement>
+
+  </build>
+
+</project>

@@ -1,0 +1,142 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com</groupId>
+  <artifactId>HDFC_CPC</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>HDFC_CPC</name>
+  <url>https://github.com/CormSquare/GePS-Testing</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>18</maven.compiler.source>
+    <maven.compiler.target>18</maven.compiler.target>
+    <log4j-core-version>2.24.3</log4j-core-version>
+    <log4j-api-version>2.24.3</log4j-api-version>
+    <testNG-version> 7.10.2 </testNG-version>
+    <chaintest-testng-version>1.0.7</chaintest-testng-version>
+    <playwright-version>1.52.0</playwright-version>
+    <maven-compiler-version>3.13.0</maven-compiler-version>
+    <maven-surefire-plugin>3.2.5</maven-surefire-plugin>
+    <jackson-api-version>2.18.2</jackson-api-version>
+    <commons-net-version>3.11.1</commons-net-version>
+    <poi-ooxml-version>5.4.0</poi-ooxml-version>
+    <httpclient5-version>5.4.2</httpclient5-version>
+    <pdfbox-version>2.0.29</pdfbox-version> <!--TODO Don't upgrade the version. Will cause an issue with the load() function -->
+    <allure-testng-version>2.29.1</allure-testng-version>
+  </properties>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>${log4j-core-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>${log4j-api-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>${testNG-version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.aventstack</groupId>
+      <artifactId>chaintest-testng</artifactId>
+      <version>${chaintest-testng-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.microsoft.playwright</groupId>
+      <artifactId>playwright</artifactId>
+      <version>${playwright-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>${jackson-api-version}</version>
+    </dependency>
+
+    <!-- FTP Client / Connect to the Server -->
+    <dependency>
+      <groupId>commons-net</groupId>
+      <artifactId>commons-net</artifactId>
+      <version>${commons-net-version}</version>
+    </dependency>
+
+    <!-- MSA Excel Processing -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>${poi-ooxml-version}</version>
+    </dependency>
+
+    <!-- HTTP Client for API Calls -->
+    <dependency>
+      <groupId>org.apache.httpcomponents.client5</groupId>
+      <artifactId>httpclient5</artifactId>
+      <version>${httpclient5-version}</version>
+    </dependency>
+
+    <!-- PDF Box to update the Name -->
+    <dependency>
+      <groupId>org.apache.pdfbox</groupId>
+      <artifactId>pdfbox</artifactId>
+      <version>${pdfbox-version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-testng</artifactId>
+      <version>${allure-testng-version}</version>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${maven-compiler-version}</version>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${maven-surefire-plugin}</version>
+          <configuration>
+            <systemPropertyVariables>
+              <allure.results.directory>allure-results</allure.results.directory>
+            </systemPropertyVariables>
+          </configuration>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${maven-surefire-plugin}</version>
+          <configuration>
+            <suiteXmlFiles>
+              <suiteXmlFile>src/test/resources/testrunners/HDFC_CPC_functional-test.xml</suiteXmlFile>
+            </suiteXmlFiles>
+          </configuration>
+        </plugin>
+
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>

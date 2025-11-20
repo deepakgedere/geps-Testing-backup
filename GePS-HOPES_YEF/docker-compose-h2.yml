@@ -1,0 +1,10 @@
+services:
+  chaintest:
+    image: anshooarora/chaintest:latest
+    container_name: chaintest
+    environment:
+      - "SPRING_PROFILES_ACTIVE=h2"
+      - SPRING_DATASOURCE_URL=jdbc:h2:file:./data/db
+      - SPRING_DATASOURCE_DRIVERCLASSNAME=org.h2.Driver
+    ports:
+      - 80:80

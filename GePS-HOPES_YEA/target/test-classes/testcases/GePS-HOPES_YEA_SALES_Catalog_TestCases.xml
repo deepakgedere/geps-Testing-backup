@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GePS-HOPES_YEA SALES Catalog Test Cases" >
+
+    <listeners>
+        <listener class-name="com.listeners.FailFastListener"/>
+    </listeners>
+
+    <test name="Requisition Create">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.requisitions.create.CreateTest"/>
+        </classes>
+    </test>
+
+    <test name="Requisition Edit">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.requisitions.edit.EditTest"/>
+        </classes>
+    </test>
+
+    <test name="Requisition Send For Approval">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.requisitions.sendforapproval.SendForApprovalTest"/>
+        </classes>
+    </test>
+
+    <test name="Requisition Reject">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.requisitions.reject.RejectTest"/>
+        </classes>
+    </test>
+
+    <test name="Requisition Approve">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.requisitions.approve.ApproveTest"/>
+        </classes>
+    </test>
+
+
+    <test name="Requisition Buyer Manager Suspend">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.requisitions.suspend.BuyerManagerSuspendTest"/>
+        </classes>
+    </test>
+
+    <test name="Requisition Buyer Suspend">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.requisitions.suspend.BuyerSuspendTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Request Create">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorderrequests.create.PorCreateTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Request Edit">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorderrequests.edit.PorEditTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Request Suspend">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorderrequests.suspend.SuspendEditTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Request Send For Approval">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorderrequests.sendforapproval.PorSendForApprovalTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Request Reject">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorderrequests.reject.PorRejectTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Request Approve">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorderrequests.approve.PorApproveTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Request Revision Request">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorderrequests.revision.PorRevisionTest"/>
+        </classes>
+    </test>
+
+    <test name="Purchase Order Send For Vendor">
+        <parameter name="type" value="Sales"/>
+        <parameter name="purchaseType" value="Catalog"/>
+        <classes>
+            <class name="com.source.classes.purchaseorders.PoSendForVendorTest"/>
+        </classes>
+    </test>
+
+</suite>

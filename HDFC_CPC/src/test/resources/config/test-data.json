@@ -1,0 +1,78 @@
+{
+  "configSettings" : {
+    "browserName" : "chrome",
+    "runHeadless" : false,
+    "appUrl" : "https://cpc_test_admin.cormsquare.com",
+    "loginPassword" : "Admin@123"
+  },
+  "mailIds" : {
+    "requesterEmail" : "Hitesh.helia@hdfcbank.com",
+    "approvalPRCreateBusinessHead" : "mousumi.acharya@hdfcbank.com",
+    "procurementManagerWest" : "shraddhaarvind.mhaske@hdfcbank.com",
+    "BMSCoordinator" : "poonam.shahasane@hdfcbank.com",
+    "PrApproveFirstLevelProcurementManagerWest" : "shraddhaarvind.mhaske@hdfcbank.com",
+    "PrApproveSecondLevelBusinessHead" : "mousumi.acharya@hdfcbank.com",
+    "BmsPrSecondLevelApprover" : "mousumi.biswas@hdfcbank.com",
+    "CPCCoordinatorWest" : "harshada.amberkardummy@hdfcbank.com",
+    "FunctionalHead" : "ashish.dhanani@hdfcbank.com",
+    "POApproveLogin" : "ajay.pandey5@hdfcbank.com",
+    "AddingCoordinator" : "harshada.amberkar@hdfcbank.com",
+    "VendorEmails" : [ ]
+  },
+  "commonRemarks" : {
+    "createRemarks" : "Created",
+    "updateRemarks" : "Updated",
+    "approveRemarks" : "Approved",
+    "rejectRemarks" : "Rejected",
+    "assignRemarks" : "Assigned",
+    "suspendRemarks" : "Suspended",
+    "cancelRemarks" : "Cancelled",
+    "amendRemarks" : "Amended"
+  },
+  "purchaseRequisitionNumber" : {
+    "prNumber" : " TR-117747 ",
+    "prNumberCount" : "1",
+    "prReferenceNumber" : "4989/140725/117747"
+  },
+  "locationDetails" : {
+    "locationCode" : "4989",
+    "locationName" : "Kanjur marg",
+    "locationSelection" : "Existing",
+    "locationSelectionType" : "ATM",
+    "selectingFloor" : "1 - First Floor",
+    "selectingTierType" : "Tier I",
+    "selectingLockerType" : "Non-Locker",
+    "RBIClassification" : "Metro",
+    "locationOwnerCode" : "C0932",
+    "locationOwnerName" : "Cedric  Mascarenhas",
+    "contactPersonCode" : "C0932",
+    "contactPersonName" : "Cedric Mascarenhas"
+  },
+  "items" : [ {
+    "categoryName" : "Chairs",
+    "subCategoryName" : "Training Chair",
+    "itemName" : "Training Chair with Desklet",
+    "quantity" : 10,
+    "vendorName" : "GODREJ AND BOYCE MFG CO. LTD",
+    "vendorEmail" : "dasanr@godrej.com",
+    "vendorAddress" : "4TH FLOOR"
+  } ],
+  "bmsItems" : [ {
+    "categoryName" : "BMS_METRO BRANCH",
+    "subCategoryName" : "Counter Closed Plate (Metro)",
+    "itemName" : "Counter Closed Plate (Metro) : Sun board with vinyl, C brackets to be hung on glass. The length is 4.5 and breadth 8.75. The thickness of the same is 3 mm and weight is 100 gms.",
+    "quantity" : 10,
+    "vendorName" : "BLUE STAR LIMITED",
+    "vendorAddress" : "502 Maloo-01"
+  } ],
+  "costCode" : {
+    "costCode" : [ "2052", "2008" ],
+    "costCodeName" : [ "Bullion Operations", "Merchant Acquiring" ],
+    "percentageCostCode" : [ 60, 40 ]
+  },
+  "billOfQuantity" : {
+    "boqCreate" : "4989/090625/117251",
+    "vendorName" : "BLUE STAR LIMITED",
+    "boqCreatedVendorAddress" : "502 Maloo-01"
+  }
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HDFC_CPC_BMS Test Cases">
+
+    <listeners>
+        <listener class-name="com.listeners.FailFastListener"/>
+    </listeners>
+
+    <test name="Requisition Create Test">
+        <classes>
+            <class name="com.classes.bms.requisitions.create.BmsCreateTest"/>
+        </classes>
+    </test>
+
+    <test name="Requisition Reject Test">
+        <classes>
+            <class name="com.classes.bms.requisitions.reject.BmsRejectTest"/>
+        </classes>
+    </test>
+
+    <test name="Requisition Edit Test">
+        <classes>
+            <class name="com.classes.bms.requisitions.edit.BmsEditTest"/>
+        </classes>
+    </test>
+
+    <test name="Requisition Select Vendor Test">
+        <classes>
+            <class name="com.classes.bms.requisitions.selectVendor.BmsSelectVendorTest"/>
+        </classes>
+    </test>
+
+    <test name="Requisition Approve Test">
+        <classes>
+            <class name="com.classes.bms.requisitions.approve.BmsApproveTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Reject Test">
+        <classes>
+            <class name="com.classes.bms.purchaseOrders.reject.BmsPORejectTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Edit Test">
+        <classes>
+            <class name="com.classes.bms.purchaseOrders.edit.BmsPOEditTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Approve Test">
+        <classes>
+            <class name="com.classes.bms.purchaseOrders.approve.BmsPOApproveTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Acknowledgement Reject Test">
+        <classes>
+            <class name="com.classes.bms.purchaseOrders.ackreject.BmsAckRejectTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Amend Test">
+        <classes>
+            <class name="com.classes.bms.purchaseOrders.amend.BmsPOAmendTest"/>
+        </classes>
+    </test>
+
+    <test name="PO Accept Test">
+        <classes>
+            <class name="com.classes.bms.purchaseOrders.accept.BmsPOAcceptTest"/>
+        </classes>
+    </test>
+
+</suite>
